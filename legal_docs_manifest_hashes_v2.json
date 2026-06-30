@@ -1,0 +1,63 @@
+{
+  "app": "ShiftAlarm",
+  "legal_documents_version": 2,
+  "date": "2026-06-29",
+  "developer": "ООО «ИНСДЕКО» / INSDECO LLC",
+  "documents": [
+    {
+      "id": "terms",
+      "lang": "ru",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "terms_ru_v2.html",
+      "size_bytes": 19389,
+      "sha256": "aaa17e8f0e144cd738b0db9e3a15a6fba41fd5f6a829c5b4261adcdc0ef13acd"
+    },
+    {
+      "id": "privacy",
+      "lang": "ru",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "privacy_ru_v2.html",
+      "size_bytes": 24145,
+      "sha256": "c5459740a5b3bf4c4d7c92a047855884aea9cdc58c330dd2b4ae3df939a9938e"
+    },
+    {
+      "id": "disclaimer",
+      "lang": "ru",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "disclaimer_ru_v2.html",
+      "size_bytes": 11929,
+      "sha256": "269f663d8b812e96c34f9c2e51f944220fb513d7ccab44f82411492f7fe8029b"
+    },
+    {
+      "id": "terms",
+      "lang": "en",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "terms_en_v2.html",
+      "size_bytes": 10002,
+      "sha256": "98ed059aaa30a4fbbda7299fde689202cc650a3db729518a910b17a504a331ae"
+    },
+    {
+      "id": "privacy",
+      "lang": "en",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "privacy_en_v2.html",
+      "size_bytes": 12581,
+      "sha256": "f3d0bbe755d89cc25248f5d00bef65af1f0f8ab0ce4846e8025fc871e3918159"
+    },
+    {
+      "id": "disclaimer",
+      "lang": "en",
+      "version": 2,
+      "date": "2026-06-29",
+      "file": "disclaimer_en_v2.html",
+      "size_bytes": 6432,
+      "sha256": "4da4efd6d471b6587e9c4a9d231829c9e8b953a48b8b1b1bd21424596b97cfe1"
+    }
+  ],
+  "note": "Add public URLs for each file according to the app legal_manifest.json schema before publishing."
+}
