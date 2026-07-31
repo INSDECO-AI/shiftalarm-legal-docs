@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ShiftAlarmin tietosuojakäytäntö</title>
+<style>
+:root {
+  color-scheme: light dark;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+  background: #f8fafc;
+}
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+h2 {
+  margin-top: 28px;
+  font-size: 20px;
+}
+p, li {
+  font-size: 16px;
+}
+.notice {
+  padding: 14px;
+  border-radius: 14px;
+  background: #e8eef8;
+}
+.small {
+  color: #64748b;
+  font-size: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e5e7eb;
+    background: #0f172a;
+  }
+  main {
+    background: #111827;
+  }
+  .notice {
+    background: #1f2937;
+  }
+  .small {
+    color: #94a3b8;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>ShiftAlarmin tietosuojakäytäntö</h1>
+<p class="small">Versio 2. Päiväys: 29.6.2026.</p>
+<h2>1. Henkilötietojen käsittelyn yleinen periaate</h2>
+<p>ShiftAlarm noudattaa ensisijaisesti offline first -mallia. Käyttäjän keskeiset tiedot luodaan, käsitellään ja tallennetaan paikallisesti käyttäjän laitteelle. Kehittäjä ei vastaanota näitä tietoja automaattisesti, ellei käyttäjä lähetä niitä tukipyynnön, viennin, sähköpostin, viestipalvelun, pilvitallennuksen, sovelluskaupan tai muun käyttäjän valitseman menetelmän kautta.</p>
+<p>Tässä versiossa sovellus ei käytä mainosverkostoja, omaa käyttäjätilijärjestelmää, palvelinpuolen tunnistautumista, Firebase Analyticsia, Google Analyticsia, Crashlyticsia tai AdMobia, ellei tästä nimenomaisesti ilmoiteta tämän käytännön päivitetyssä versiossa.</p>
+<h2>2. Paikallisesti tallennettavat tiedot</h2>
+<p>Käytetyistä toiminnoista riippuen sovellus voi tallentaa laitteelle seuraavia tietoja:</p>
+<ul>
+<li>sovelluksen asetukset, kieli, teema, pienoisohjelmien asetukset ja käyttäjän valinnat;</li>
+<li>tavalliset hälytykset, työvuoroihin liitetyt hälytykset, kellonaika, toistot, äänet, värinä, torkku, äänen asteittainen voimistuminen ja niihin liittyvät asetukset;</li>
+<li>työvuorosuunnitelmat, työvuoromallit, kalenterin poikkeukset, vapaapäivät ja käyttäjän merkinnät;</li>
+<li>sijaintihälytykset: koordinaatit, säde, saapumis- tai poistumistapahtuman tyyppi, osoite, paikan nimi, tallennetut paikat, aikataulu ja laukeamisen tila;</li>
+<li>muistiinpanot, tapahtumat, muistutukset, tarkistuslistat, tekstilohkot ja niihin liittyvät päivämäärät;</li>
+<li>äänimuistiinpanot, äänitallenteet ja tekstilitteroinnit;</li>
+<li>ajastin, sekuntikello, maailmankellot ja tiettyjen toimintojen historia, jos historia kuuluu kyseiseen toimintoon;</li>
+<li>palkkalaskennan asetukset, bonukset, vähennykset, seuraamusmaksut, raportit ja niihin liittyvät laskelmat;</li>
+<li>diagnostiikkalokit, tekniset tapahtumat, käyttölupien tila, virheet ja toimintojen tilat;</li>
+<li>varmuuskopiot, jos käyttäjä luo ne manuaalisesti.</li>
+</ul>
+<h2>3. Tiedot, jotka käyttäjä voi lähettää kehittäjälle</h2>
+<p>Jos käyttäjä ottaa yhteyttä tukeen osoitteessa support@insdeco.ru, kehittäjä voi vastaanottaa käyttäjän sähköpostiosoitteen, nimen tai sähköpostiallekirjoituksen, viestin tekstin, liitteet, kuvakaappaukset, varmuuskopiotiedostot, diagnostiikkaraportit, laitteen mallin, Android-version, sovelluksen version, tapahtuma-ajan ja ongelman kuvauksen.</p>
+<p>Tällaiset tiedot lähetetään vain käyttäjän toimenpiteellä. Käyttäjän tulee tarkistaa sähköposti ja liitteet ennen lähettämistä.</p>
+<h2>4. Käsittelyn tarkoitukset</h2>
+<p>Tietoja käytetään sovelluksen toimintojen toteuttamiseen, käyttäjän asetusten tallentamiseen, hälytysten ja muistutusten toimittamiseen, sijaintihälytysten toimintaan, muistiinpanojen ja pienoisohjelmien näyttämiseen, varmuuskopioiden luomiseen, virheiden selvittämiseen, tukipyyntöjen käsittelyyn, sovelluksen vakauden parantamiseen, lakisääteisten vaatimusten noudattamiseen sekä kehittäjän ja käyttäjän oikeuksien suojaamiseen.</p>
+<p>Sovellettavasta lainsäädännöstä riippuen käsittelyperusteita voivat olla käyttäjäsopimuksen täytäntöönpano, käyttäjän toimenpide, tiettyihin käyttölupiin annettu suostumus, oikeutettu etu tuen ja turvallisuuden järjestämiseen sekä lakisääteisten velvoitteiden noudattaminen.</p>
+<h2>5. Laitteen käyttöluvat</h2>
+<p>Sovellus voi pyytää vain kyseisten toimintojen edellyttämiä käyttölupia:</p>
+<ul>
+<li>ilmoitukset — hälytyksiä, ajastimia, muistutuksia ja palveluilmoituksia varten;</li>
+<li>täsmälliset hälytykset ja hälytysluvat — käyttäjän valitsemaan aikaan tapahtuvaa laukaisua varten;</li>
+<li>sijainti sovellusta käytettäessä — paikkojen valintaa, karttoja ja sijaintihälytysten määrittämistä varten;</li>
+<li>taustasijainti — sijaintihälytyksiä varten silloin, kun sovellus ei ole avoinna;</li>
+<li>mikrofoni — äänimuistiinpanoja, puhesyöttöä ja puheentunnistusta varten;</li>
+<li>internet — kielipakettien, oikeudellisten asiakirjojen, ohjeiden, offline-litterointimallien, karttojen ja verkkotoimintojen lataamista varten;</li>
+<li>tiedostojen käyttö järjestelmän tiedostonvalitsimen kautta — varmuuskopioiden vientiä ja tuontia varten;</li>
+<li>akun ja taustatoiminnan asetukset — hälytysten, ilmoitusten ja sijaintihälytysten toimintavarmuuden parantamiseksi.</li>
+</ul>
+<p>Käyttäjä voi peruuttaa käyttöluvat Android-asetuksissa. Peruuttamisen jälkeen jotkin toiminnot voivat lakata olemasta käytettävissä tai toimia rajoitetusti.</p>
+<h2>6. Sijainti ja kartat</h2>
+<p>Sijaintitietoja käytetään pisteen valitsemiseen kartalta, sijaintihälytysten tallentamiseen, määritetylle alueelle saapumisen tai siltä poistumisen tunnistamiseen, osoitteen näyttämiseen ja tallennettujen paikkojen luomiseen. Koordinaatit ja sijaintihälytysten asetukset tallennetaan paikallisesti laitteelle, ellei käyttäjä vie tai lähetä niitä.</p>
+<p>Kun käyttäjä käyttää karttoja tai osoitehakua, sovellus voi olla yhteydessä kartta- ja geokoodauskomponentteihin, kuten osmdroid/OpenStreetMapiin, Nominatim-käänteiseen geokoodaukseen, Android-järjestelmän Geocoder-palveluun tai muuhun laitteella käytettävissä olevaan palveluun. Tällaiset palvelut voivat vastaanottaa teknisiä pyyntötietoja, IP-osoitteen, koordinaatteja tai muita kartan näyttämiseen tai osoitteen määrittämiseen tarvittavia tietoja.</p>
+<h2>7. Ääni sekä offline- ja online-litterointi</h2>
+<p>Äänimuistiinpanot ja litteroinnit luodaan käyttäjän toimenpiteellä, ja ne voivat sisältää henkilötietoja tai arkaluonteisia tietoja, jos käyttäjä tallentaa niitä. Ne säilytetään paikallisesti laitteella, ellei käyttäjä vie tai lähetä niitä.</p>
+<p>Offline-litterointi voi käyttää paikallisesti ladattuja puheentunnistusmalleja. Kun tällaisia malleja ladataan, etäpalvelin voi nähdä teknisiä yhteystietoja, kuten IP-osoitteen ja pyyntöä koskevia tietoja.</p>
+<p>Online-puheentunnistus voi käyttää laitteen, valmistajan, käyttäjän tai käyttöjärjestelmän valitsemaa Android-järjestelmän puheentunnistuspalvelua. Tällöin äänitietoja ja teknisiä tietoja voidaan lähettää valittuun puheentunnistuspalveluun ja käsitellä siellä sen omien sääntöjen mukaisesti. ShiftAlarmin kehittäjä ei hallitse kyseisen järjestelmäpalvelun käytäntöjä.</p>
+<h2>8. Verkkolataukset ja etälähteet</h2>
+<p>Sovellus voi käyttää internetiä kielipakettien, manifestitiedostojen, oikeudellisten asiakirjojen, ohjemateriaalien, ohjeiden ja offline-litterointimallien lataamiseen, myös GitHubista tai muusta sovelluksessa määritetystä etälähteestä. Tällaisten pyyntöjen yhteydessä etäpalvelin voi vastaanottaa IP-osoitteen, pyynnön päivämäärän ja kellonajan, tiedostopolun, yhteystietoja ja muita tavanomaisia teknisiä tietoja.</p>
+<p>Tiedostot, joille sovelluksessa on toteutettu eheystarkistus, voidaan tarkistaa SHA-256-tarkistussummalla tai muulla tarkistussummalla. Tämä vähentää tiedoston vioittumisen riskiä, mutta ei takaa etälähteen saatavuutta.</p>
+<h2>9. Sovelluskaupat ja maksut</h2>
+<p>Sovellus ostetaan sovelluskaupasta, kuten RuStoresta tai Google Playsta, jos se on saatavilla kyseisellä alustalla. Sovelluskauppa käsittelee itsenäisesti käyttäjän tiliä, maksuja, hyvityksiä, ostohistoriaa, asennusta ja päivityksiä omien sääntöjensä ja tietosuojakäytäntönsä mukaisesti.</p>
+<p>Kehittäjä ei vastaanota pankkikortteja, maksusalasanoja tai täydellisiä maksutunnuksia, kun maksu suoritetaan sovelluskaupan kautta.</p>
+<h2>10. Varmuuskopiot ja vienti</h2>
+<p>Varmuuskopiot luodaan vain käyttäjän toimenpiteellä. Varmuuskopiotiedosto voi sisältää huomattavan osan sovelluksen paikallisista tiedoista, mukaan lukien hälytykset, suunnitelmat, muistiinpanot, sijaintipisteet, asetukset, diagnostiikkatiedot ja muut tiedot.</p>
+<p>Jos käyttäjä tallentaa tai jakaa varmuuskopion toisen sovelluksen, pilvitallennuksen, sähköpostin, viestipalvelun, tiedostonhallinnan tai ulkoisen tallennustilan kautta, tiedoston myöhempi suojaus ja käsittely riippuvat käyttäjän valitsemasta tallennus- tai siirtotavasta.</p>
+<h2>11. Diagnostiikka</h2>
+<p>Diagnostiikkalokit on tarkoitettu vianmääritykseen ja toimintojen tarkistamiseen. Ne voivat sisältää teknisiä tietoja sovelluksen tapahtumista, ajasta, käyttöluvista, laitteesta, käyttöjärjestelmän versiosta, sovelluksen versiosta, hälytysten tilasta, sijaintihälytysten tilasta, muistiinpanoista, varmuuskopioista ja virheistä.</p>
+<p>Diagnostiikkatiedot säilytetään paikallisesti, kunnes käyttäjä tyhjentää ne tai lähettää ne manuaalisesti kehittäjälle.</p>
+<h2>12. Luovuttaminen kolmansille osapuolille</h2>
+<p>Kehittäjä ei myy käyttäjätietoja mainostajille eikä siirrä sovelluksen paikallisia tietoja automaattisesti kolmansille osapuolille. Tietoja voidaan siirtää, jos käyttäjä käyttää ulkoisia palveluja, lähettää tukipyynnön, vie varmuuskopion, käyttää karttoja, geokoodausta, online-puheentunnistusta, sovelluskauppaa tai muuta ulkoista palvelua.</p>
+<p>Kolmansien osapuolten palvelut käsittelevät tietoja omien sääntöjensä mukaisesti. Käyttäjää suositellaan tutustumaan valitun sovelluskaupan, sähköpostipalvelun, pilvitallennuksen, karttapalvelun, puheentunnistuspalvelun ja muiden ulkoisten palvelujen käytäntöihin.</p>
+<h2>13. Tietojen säilytysaika</h2>
+<p>Paikallisia tietoja säilytetään laitteella, kunnes käyttäjä poistaa ne sovelluksessa, tyhjentää sovelluksen tiedot, poistaa sovelluksen, palauttaa tiedot toisesta varmuuskopiosta tai poistaa varmuuskopiotiedoston valitusta tallennuspaikasta.</p>
+<p>Käyttäjän kehittäjälle lähettämiä tukipyyntöjä, sähköposteja, liitteitä ja diagnostiikka-aineistoja voidaan säilyttää ilman ennalta määritettyä päättymisaikaa tukihistorian säilyttämiseksi, toistuvien ongelmien analysoimiseksi, oikeuksien suojaamiseksi ja lakisääteisten velvoitteiden noudattamiseksi. Käyttäjä voi pyytää tällaisten tietojen poistamista; pyyntö toteutetaan, ellei tietojen pidempi säilyttäminen ole sovellettavan lain mukaan tarpeen tai sallittua.</p>
+<h2>14. Turvallisuus</h2>
+<p>Sovellus käyttää Androidin tavanomaisia mekanismeja, kuten käyttöjärjestelmän toteuttamaa sovellustietojen eristämistä, järjestelmän käyttölupia ja järjestelmän tiedostonvalitsinta. Tietyt ladatut tiedostot voidaan tarkistaa tarkistussummalla, jos tällainen tarkistus on toteutettu kyseiselle tiedostotyypille.</p>
+<p>Käyttäjä vastaa laitteen, näytön lukituksen, sähköpostin käyttöoikeuden, pilvipalvelujen, varmuuskopioiden ja ulkoisen tallennustilan suojaamisesta. Varmuuskopiot ja viedyt tiedostot voivat olla muiden henkilöiden käytettävissä, jos käyttäjä tallentaa ne suojaamattomaan paikkaan tai jakaa ne kolmansille osapuolille.</p>
+<h2>15. Käsittelymaat</h2>
+<p>Paikalliset tiedot pysyvät käyttäjän laitteella siinä maassa, jossa laitetta käytetään. Sovelluskauppojen, GitHubin, karttapalvelujen, puheentunnistuspalvelujen, sähköpostipalvelujen, pilvipalvelujen ja muiden ulkoisten palvelujen kautta siirrettyjä tietoja voidaan käsitellä maissa, joissa kyseiset palvelut toimivat tai joissa niiden infrastruktuuria ylläpidetään.</p>
+<p>Kehittäjän tukeen lähetettyjä tietoja voidaan käsitellä siellä, missä kehittäjä sekä kehittäjän sähköposti-, hosting- tai varmuuskopiointipalvelut sijaitsevat.</p>
+<h2>16. Käyttäjän oikeudet</h2>
+<p>Käyttäjä voi tarkastella, muuttaa ja poistaa useimmat tiedot suoraan sovelluksessa. Käyttäjä voi myös tyhjentää sovelluksen tiedot Androidin kautta, poistaa sovelluksen, peruuttaa käyttöluvat, viedä varmuuskopion tai poistaa itse luomansa varmuuskopiotiedostot.</p>
+<p>Kehittäjälle lähetettyjen tietojen osalta käyttäjä voi ottaa yhteyttä osoitteeseen support@insdeco.ru ja pyytää pääsyä tietoihin, tietojen oikaisua tai poistamista, käsittelyn rajoittamista tai suostumuksen peruuttamista siltä osin kuin nämä oikeudet soveltuvat lain nojalla. Tietojen suojaamiseksi kehittäjä voi pyytää tietoja, jotka ovat tarpeen sen varmistamiseksi, että pyyntö koskee kyseistä käyttäjää tai sähköpostiosoitetta.</p>
+<p>Jos käyttäjä sijaitsee lainkäyttöalueella, jossa hänellä on oikeus tehdä valitus tietosuojaviranomaiselle, hän voi ottaa sovellettavan lain mukaisesti yhteyttä toimivaltaiseen viranomaiseen. Suomessa toimivaltainen valvontaviranomainen on Tietosuojavaltuutetun toimisto.</p>
+<h2>17. Lapset</h2>
+<p>Sovelluksella voi olla ikäraja 0+, mutta sitä ei ole tarkoitettu kehittäjän suorittamaan lasten henkilötietojen kohdennettuun keräämiseen. Jos lapsi käyttää sovellusta, vanhemman tai laillisen huoltajan tulee valvoa asetuksia, käyttölupia, muistiinpanoja, äänitallenteita, sijaintipisteitä, varmuuskopioita ja tukipyyntöjä, jos laki tai perheen säännöt sitä edellyttävät.</p>
+<h2>18. Tämän käytännön muutokset</h2>
+<p>Kehittäjä voi päivittää tätä käytäntöä. Ajantasainen versio voidaan toimittaa sovelluksen mukana, ladata etälähteestä tai avata sovellukseen sisältyvästä varaversiosta. Olennaisten muutosten yhteydessä sovellus voi pyytää käyttäjää tarkistamaan tai hyväksymään päivitetyn asiakirjan, jos laki tai sovelluksen toimintalogiikka sitä edellyttää.</p>
+<div class="notice">
+<p><strong>Sovelluksen omistaja ja kehittäjä:</strong><br/><strong>Официальные зарегистрированные сведения на русском языке:</strong> ООО «ИНСДЕКО», ИНН 0912006803, КПП 091201001, ОГРН 1210900000783.<br/><strong>Suomenkielinen käännös on annettu vain tiedoksi eikä se korvaa virallisia rekisteritietoja:</strong> INSDECO, Venäjän lainsäädännön mukainen rajavastuuyhtiö, ИНН 0912006803, КПП 091201001, ОГРН 1210900000783.</p>
+<p><strong>Rekisteröity osoite:</strong><br/><strong>Официальный юридический адрес:</strong> 369281, Карачаево-Черкесская Республика, м.р-н Урупский, г.п. Медногорское, пгт Медногорский, ул. Парковая, д. 1.<br/><strong>Suomenkielinen käännös on annettu vain tiedoksi eikä se korvaa virallista osoitetta:</strong> Parkovaja-katu 1, Mednogorskin kaupunkityyppinen taajama, Mednogorskojen kaupunkikunta, Urupskin kuntapiiri, Karatšai-Tšerkessian tasavalta, 369281, Venäjän federaatio.</p>
+<p><strong>Официальный контакт по вопросам конфиденциальности:</strong> support@insdeco.ru.<br/><strong>Suomenkielinen viitetieto:</strong> Tietosuoja-asioiden yhteystieto: support@insdeco.ru.</p>
+</div>
+</main>
+</body>
+</html>
