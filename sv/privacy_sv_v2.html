@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ShiftAlarm integritetspolicy</title>
+<style>
+:root {
+  color-scheme: light dark;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+  background: #f8fafc;
+}
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+h2 {
+  margin-top: 28px;
+  font-size: 20px;
+}
+p, li {
+  font-size: 16px;
+}
+.notice {
+  padding: 14px;
+  border-radius: 14px;
+  background: #e8eef8;
+}
+.small {
+  color: #64748b;
+  font-size: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e5e7eb;
+    background: #0f172a;
+  }
+  main {
+    background: #111827;
+  }
+  .notice {
+    background: #1f2937;
+  }
+  .small {
+    color: #94a3b8;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>ShiftAlarm integritetspolicy</h1>
+<p class="small">Version 2. Datum: 2026-06-29.</p>
+<h2>1. Allmän princip för personuppgiftsbehandling</h2>
+<p>ShiftAlarm bygger i första hand på en offline-först-modell. Centrala användardata skapas, behandlas och lagras lokalt på användarens enhet. Utvecklaren tar inte automatiskt emot sådana data, om inte användaren själv skickar dem genom en supportförfrågan, export, e-post, meddelandetjänst, molnlagring, appbutik eller någon annan metod som användaren väljer.</p>
+<p>I denna version använder appen inte annonsnätverk, ett eget kontosystem, serverbaserad autentisering, Firebase Analytics, Google Analytics, Crashlytics eller AdMob, om inte detta uttryckligen anges i en uppdaterad version av denna policy.</p>
+<h2>2. Data som kan lagras lokalt</h2>
+<p>Beroende på vilka funktioner som används kan appen lagra följande data på enheten:</p>
+<ul>
+<li>appinställningar, språk, tema, widgetinställningar och användarpreferenser;</li>
+<li>vanliga alarm, skiftkopplade alarm, tider, upprepningar, ljud, vibration, snooze, gradvis ljudökning och tillhörande inställningar;</li>
+<li>skiftscheman, skiftmallar, kalenderändringar, lediga dagar och användarens markeringar;</li>
+<li>platslarm: koordinater, radie, händelsetyp för inpassering/utpassering, adress, platsnamn, sparade platser, schema och aktiveringsstatus;</li>
+<li>anteckningar, händelser, påminnelser, checklistor, textblock och tillhörande datum;</li>
+<li>ljudanteckningar, röstinspelningar och texttranskriberingar;</li>
+<li>timer, stoppur, världsklockor och historik över vissa åtgärder när sådan historik ingår i funktionen;</li>
+<li>inställningar för löneberäkning, bonusar, avdrag, påföljder, rapporter och tillhörande beräkningar;</li>
+<li>diagnostikloggar, tekniska händelser, behörighetsstatus, fel och funktionsstatus;</li>
+<li>säkerhetskopior, om användaren skapar dem manuellt.</li>
+</ul>
+<h2>3. Data som användaren kan skicka till utvecklaren</h2>
+<p>Om användaren kontaktar supporten på support@insdeco.ru kan utvecklaren ta emot användarens e-postadress, namn eller e-postsignatur, meddelandetext, bilagor, skärmbilder, säkerhetskopior, diagnostikrapporter, enhetsmodell, Android-version, appversion, tidpunkt för händelsen och en beskrivning av problemet.</p>
+<p>Sådana data skickas endast genom en åtgärd av användaren. Användaren bör granska e-postmeddelandet och bilagorna innan de skickas.</p>
+<h2>4. Ändamål med behandlingen</h2>
+<p>Data används för att tillhandahålla appens funktioner, spara användarinställningar, leverera alarm och påminnelser, hantera platslarm, visa anteckningar och widgetar, skapa säkerhetskopior, diagnostisera fel, handlägga supportärenden, förbättra appens stabilitet, uppfylla rättsliga krav samt skydda utvecklarens och användarens rättigheter.</p>
+<p>Beroende på tillämplig lag kan den rättsliga grunden för behandlingen vara fullgörande av användaravtalet, en åtgärd som användaren vidtar, samtycke till särskilda behörigheter, berättigat intresse av support och säkerhet samt fullgörande av rättsliga förpliktelser.</p>
+<h2>5. Enhetsbehörigheter</h2>
+<p>Appen kan begära endast de behörigheter som behövs för respektive funktion:</p>
+<ul>
+<li>aviseringar – för alarm, timer, påminnelser och tjänsteaviseringar;</li>
+<li>exakta alarm och alarmbehörigheter – för aktivering vid den tid som användaren har valt;</li>
+<li>platsåtkomst medan appen används – för att välja platser, använda kartor och konfigurera platslarm;</li>
+<li>platsåtkomst i bakgrunden – för platslarm när appen inte är öppen;</li>
+<li>mikrofon – för ljudanteckningar, röstinmatning och taligenkänning;</li>
+<li>internet – för nedladdning av språkpaket, juridiska dokument, hjälp, instruktioner, modeller för offline-transkribering, kartor och nätverksfunktioner;</li>
+<li>filåtkomst via systemets filväljare – för export och import av säkerhetskopior;</li>
+<li>inställningar för batteri och bakgrundsaktivitet – för att förbättra tillförlitligheten hos alarm, aviseringar och platslarm.</li>
+</ul>
+<p>Användaren kan återkalla behörigheter i Android-inställningarna. När en behörighet återkallas kan vissa funktioner bli otillgängliga eller fungera begränsat.</p>
+<h2>6. Plats och kartor</h2>
+<p>Platsdata används för att välja en punkt på kartan, spara platslarm, upptäcka inpassering i eller utpassering ur ett angivet område, visa en adress och skapa sparade platser. Koordinater och inställningar för platslarm lagras lokalt på enheten, om inte användaren exporterar eller skickar dem.</p>
+<p>När användaren använder kartor eller adressökning kan appen kontakta kart- och geokodningskomponenter, däribland osmdroid/OpenStreetMap, Nominatim för omvänd geokodning, Android-systemets Geocoder eller någon annan tjänst som finns på enheten. Sådana tjänster kan ta emot tekniska uppgifter om förfrågan, IP-adress, koordinater eller andra uppgifter som behövs för att visa kartan eller fastställa en adress.</p>
+<h2>7. Ljud samt offline- och online-transkribering</h2>
+<p>Ljudanteckningar och transkriberingar skapas genom en åtgärd av användaren och kan innehålla personuppgifter eller känsliga uppgifter om användaren spelar in sådant innehåll. De lagras lokalt på enheten, om inte användaren exporterar eller skickar dem.</p>
+<p>Offline-transkribering kan använda lokalt nedladdade modeller för taligenkänning. När sådana modeller laddas ned kan fjärrservern se tekniska anslutningsuppgifter, till exempel IP-adress och information om förfrågan.</p>
+<p>Taligenkänning online kan använda Android-systemets taligenkänningstjänst som valts av enheten, tillverkaren, användaren eller operativsystemet. I så fall kan ljuddata och teknisk information skickas till och behandlas av den valda taligenkänningstjänsten enligt dess egna regler. Utvecklaren av ShiftAlarm kontrollerar inte den systemtjänstens policyer.</p>
+<h2>8. Nätverksnedladdningar och fjärrkällor</h2>
+<p>Appen kan använda internet för att ladda ned språkpaket, manifestfiler, juridiska dokument, hjälpmaterial, instruktioner och modeller för offline-transkribering, bland annat från GitHub eller någon annan fjärrkälla som anges i appen. Vid sådana förfrågningar kan fjärrservern ta emot IP-adress, datum och tid för förfrågan, filsökväg, anslutningsinformation och andra vanliga tekniska uppgifter.</p>
+<p>Filer för vilka integritetskontroll har införts i appen kan kontrolleras med SHA-256 eller en annan kontrollsumma. Detta minskar risken för filskador men garanterar inte att fjärrkällan är tillgänglig.</p>
+<h2>9. Appbutiker och betalningar</h2>
+<p>Appen köps via en appbutik, till exempel RuStore eller Google Play, om appen finns på den aktuella plattformen. Appbutiken behandlar självständigt användarens konto, betalningar, återbetalningar, köphistorik, installation och uppdateringar enligt sina egna regler och sin egen integritetspolicy.</p>
+<p>Utvecklaren tar inte emot bankkortsuppgifter, betalningslösenord eller fullständiga betalningsuppgifter när betalningen görs via appbutiken.</p>
+<h2>10. Säkerhetskopior och export</h2>
+<p>Säkerhetskopior skapas endast genom en åtgärd av användaren. En säkerhetskopia kan innehålla en betydande del av appens lokala data, däribland alarm, scheman, anteckningar, platspunkter, inställningar, diagnostik och annan information.</p>
+<p>Om användaren sparar eller delar en säkerhetskopia via en annan app, molnlagring, e-post, meddelandetjänst, filhanterare eller extern lagring beror det fortsatta skyddet och behandlingen av filen på den lagrings- eller överföringsmetod som användaren väljer.</p>
+<h2>11. Diagnostik</h2>
+<p>Diagnostikloggar är avsedda för felsökning och kontroll av funktioner. De kan innehålla teknisk information om apphändelser, tid, behörigheter, enhet, operativsystemversion, appversion, alarmstatus, status för platslarm, anteckningar, säkerhetskopior och fel.</p>
+<p>Diagnostik lagras lokalt tills användaren rensar den eller manuellt skickar den till utvecklaren.</p>
+<h2>12. Delning med tredje part</h2>
+<p>Utvecklaren säljer inte användardata till annonsörer och överför inte automatiskt appens lokala data till tredje part. Data kan överföras om användaren använder externa tjänster, skickar en supportförfrågan, exporterar en säkerhetskopia eller använder kartor, geokodning, taligenkänning online, en appbutik eller någon annan extern tjänst.</p>
+<p>Tredjepartstjänster behandlar data enligt sina egna regler. Användaren rekommenderas att läsa policyerna för den valda appbutiken, e-posttjänsten, molnlagringen, karttjänsten, taligenkänningstjänsten och andra externa tjänster.</p>
+<h2>13. Lagringstid</h2>
+<p>Lokala data lagras på enheten tills användaren raderar dem i appen, rensar appdata, avinstallerar appen, återställer data från en annan säkerhetskopia eller raderar säkerhetskopian från den valda lagringsplatsen.</p>
+<p>Supportförfrågningar, e-postmeddelanden, bilagor och diagnostikmaterial som användaren skickar till utvecklaren kan lagras utan en i förväg bestämd tidsgräns för att bevara supporthistorik, analysera återkommande problem, skydda rättigheter och uppfylla rättsliga förpliktelser. Användaren kan begära att sådana data raderas; begäran kommer att tillgodoses om fortsatt lagring inte krävs eller är tillåten enligt tillämplig lag.</p>
+<h2>14. Säkerhet</h2>
+<p>Appen använder vanliga Android-mekanismer, däribland operativsystemets isolering av appdata, systembehörigheter och systemets filväljare. Vissa nedladdade filer kan verifieras med kontrollsumma om sådan verifiering har införts för den aktuella filtypen.</p>
+<p>Användaren ansvarar för att skydda enheten, skärmlåset, åtkomsten till e-post, molntjänster, säkerhetskopior och extern lagring. Säkerhetskopior och exporterade filer kan bli åtkomliga för andra personer om användaren lagrar dem på en oskyddad plats eller delar dem med tredje part.</p>
+<h2>15. Länder där behandling kan ske</h2>
+<p>Lokala data finns kvar på användarens enhet i det land där enheten används. Data som överförs via appbutiker, GitHub, karttjänster, taligenkänningstjänster, e-posttjänster, molntjänster och andra externa tjänster kan behandlas i de länder där dessa tjänster bedriver verksamhet eller har sin infrastruktur.</p>
+<p>Data som skickas till utvecklarens support kan behandlas där utvecklaren och utvecklarens tjänster för e-post, webbhotell eller säkerhetskopiering finns.</p>
+<h2>16. Användarens rättigheter</h2>
+<p>Användaren kan visa, ändra och radera de flesta data direkt i appen. Användaren kan även rensa appdata via Android, avinstallera appen, återkalla behörigheter, exportera en säkerhetskopia eller radera säkerhetskopior som användaren själv har skapat.</p>
+<p>För data som har skickats till utvecklaren kan användaren kontakta support@insdeco.ru och, när sådana rättigheter följer av lag, begära tillgång, rättelse, radering eller begränsning av behandlingen samt återkalla samtycke. För att skydda uppgifterna kan utvecklaren begära den information som behövs för att kontrollera att begäran avser rätt användare eller e-postadress.</p>
+<p>Om användaren befinner sig i en jurisdiktion som ger rätt att lämna in klagomål till en dataskyddsmyndighet kan användaren kontakta den myndigheten i enlighet med tillämplig lag.</p>
+<h2>17. Barn</h2>
+<p>Appen kan ha åldersgränsen 0+, men den är inte avsedd för riktad insamling av barns personuppgifter av utvecklaren. Om ett barn använder appen bör en förälder eller vårdnadshavare övervaka inställningar, behörigheter, anteckningar, ljudinspelningar, platspunkter, säkerhetskopior och supportförfrågningar när detta krävs enligt lag eller familjens regler.</p>
+<h2>18. Ändringar i denna policy</h2>
+<p>Utvecklaren kan uppdatera denna policy. Den aktuella versionen kan levereras tillsammans med appen, laddas ned från en fjärrkälla eller öppnas från en medföljande reservversion. Vid väsentliga ändringar kan appen begära att användaren granskar eller godkänner det uppdaterade dokumentet på nytt, om detta krävs enligt lag eller appens logik.</p>
+<div class="notice">
+<p><strong>Appens ägare och utvecklare:</strong> officiella registreringsuppgifter på ryska: ООО «ИНСДЕКО»; ИНН 0912006803; КПП 091201001; ОГРН 1210900000783. Följande svenska översättning lämnas endast som information och ersätter inte de officiella registreringsuppgifterna: bolag med begränsat ansvar ”INSDECO”; ryskt skatteregistreringsnummer (ИНН) 0912006803; kod för registreringsgrund (КПП) 091201001; huvudsakligt statligt registreringsnummer för juridisk person (ОГРН) 1210900000783.</p>
+<p><strong>Registrerad adress:</strong> officiell text på ryska: 369281, Карачаево-Черкесская Республика, м.р-н Урупский, г.п. Медногорское, пгт Медногорский, ул. Парковая, д. 1. Följande svenska översättning lämnas endast som information och ersätter inte den officiella texten: Parkovajagatan 1, tätorten Mednogorskij, stadskommunen Mednogorskoje, Urupskijs kommunala distrikt, Karatjajen-Tjerkessiska republiken, 369281, Ryska federationen.</p>
+<p><strong>Kontakt i integritetsfrågor:</strong> support@insdeco.ru.</p>
+</div>
+</main>
+</body>
+</html>
