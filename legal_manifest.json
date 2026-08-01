@@ -1,0 +1,2182 @@
+{
+  "manifest_version": 25,
+  "min_supported_app_version": 1,
+  "documents": [
+    {
+      "type": "terms",
+      "language": "ru",
+      "version": "2",
+      "required": true,
+      "url": "ru/terms_ru_v2.html",
+      "sha256": "6d48278ef59308e744a60b2db7d1365ca67c41f5cb92605c1aed270f514f5bce"
+    },
+    {
+      "type": "privacy",
+      "language": "ru",
+      "version": "2",
+      "required": true,
+      "url": "ru/privacy_ru_v2.html",
+      "sha256": "2a4312145f7b57ae494df26fe0f5af2dc4a260a10969069b4c7b8ac6fa4bc9b6"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ru",
+      "version": "2",
+      "required": true,
+      "url": "ru/disclaimer_ru_v2.html",
+      "sha256": "269f663d8b812e96c34f9c2e51f944220fb513d7ccab44f82411492f7fe8029b"
+    },
+    {
+      "type": "help",
+      "language": "ru",
+      "version": "1",
+      "required": false,
+      "url": "ru/help.html",
+      "sha256": "96119ef0dba371219283aefcb23984c59bcfb36ffdb240ad8e6058c0cdf23cf3"
+    },
+    {
+      "type": "terms",
+      "language": "en",
+      "version": "2",
+      "required": true,
+      "url": "en/terms_en_v2.html",
+      "sha256": "a3693a53a5277932e8d101b26bef01cdf6d9ca69e53d7701513762ded0d7fc4a"
+    },
+    {
+      "type": "privacy",
+      "language": "en",
+      "version": "2",
+      "required": true,
+      "url": "en/privacy_en_v2.html",
+      "sha256": "96ce233776a0ae42bed1a265ae1ecd344eb31bcc8aded5fdbf711160b321e04f"
+    },
+    {
+      "type": "disclaimer",
+      "language": "en",
+      "version": "2",
+      "required": true,
+      "url": "en/disclaimer_en_v2.html",
+      "sha256": "4da4efd6d471b6587e9c4a9d231829c9e8b953a48b8b1b1bd21424596b97cfe1"
+    },
+    {
+      "type": "help",
+      "language": "en",
+      "version": "1",
+      "required": false,
+      "url": "en/help.html",
+      "sha256": "a8bc34a07c29ad8046419b3d4a2908a6dad9a705a3e6dc7290736b0bd3afd7b7"
+    },
+    {
+      "type": "terms",
+      "language": "ar",
+      "version": "2",
+      "required": true,
+      "url": "ar/terms_ar_v2.html",
+      "sha256": "aa8cac1a59696222d92584e75c82f3ab5600ca54a0b6a343bb8c65393b809f74"
+    },
+    {
+      "type": "privacy",
+      "language": "ar",
+      "version": "2",
+      "required": true,
+      "url": "ar/privacy_ar_v2.html",
+      "sha256": "1446c19e9da303034019bc6ce095eec725ee538203f7b1218b7be3e470043e53"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ar",
+      "version": "2",
+      "required": true,
+      "url": "ar/disclaimer_ar_v2.html",
+      "sha256": "5ade24dcd0f489deb7735c894d126f10459d093f8cee4887f859dfff3f883e19"
+    },
+    {
+      "type": "help",
+      "language": "ar",
+      "version": "1",
+      "required": false,
+      "url": "ar/help.html",
+      "sha256": "890ca2b350927e3fb5eb5ab3575dcf338ed0484de6c98eefe623122389bb4444"
+    },
+    {
+      "type": "terms",
+      "language": "zh-Hans",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hans/terms_zh-Hans_v2.html",
+      "sha256": "9ef2faab067c170fec9d13e623a8f43ef98f12cc507d4696efe187351aef99bd"
+    },
+    {
+      "type": "privacy",
+      "language": "zh-Hans",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hans/privacy_zh-Hans_v2.html",
+      "sha256": "12a954712f59ae6c3d056a650804d8f4e9e50c94652db29795684fdd8116ad43"
+    },
+    {
+      "type": "disclaimer",
+      "language": "zh-Hans",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hans/disclaimer_zh-Hans_v2.html",
+      "sha256": "9648d9c6721a90a02293bdfcde242c2a4fad541ee1abb30a96a2d3a837291a8d"
+    },
+    {
+      "type": "help",
+      "language": "zh-Hans",
+      "version": "1",
+      "required": false,
+      "url": "zh-Hans/help.html",
+      "sha256": "4f2d407aea0cbf6ea110845165b1fc315902c02c67eb4b846207662abb10d015"
+    },
+    {
+      "type": "terms",
+      "language": "zh-Hant",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hant/terms_zh-Hant_v2.html",
+      "sha256": "ec3ae461c54bfbb633e707b33b27d4704e691da75aa8549fd3eb6a5a4d8ad0d5"
+    },
+    {
+      "type": "privacy",
+      "language": "zh-Hant",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hant/privacy_zh-Hant_v2.html",
+      "sha256": "28cceb8cd9c90a116db4774c7a304e4d0758f2d54e7f0b778a2b2e6d9556ac69"
+    },
+    {
+      "type": "disclaimer",
+      "language": "zh-Hant",
+      "version": "2",
+      "required": true,
+      "url": "zh-Hant/disclaimer_zh-Hant_v2.html",
+      "sha256": "e72b171628352aa9da09b4747efa26714f786e5e85b9d8fe5ddf45d7ee9cc754"
+    },
+    {
+      "type": "help",
+      "language": "zh-Hant",
+      "version": "1",
+      "required": false,
+      "url": "zh-Hant/help.html",
+      "sha256": "7120d66f891e7b5b0f911576064ea34c0dd1f0103b675ad4a8dfad987822d9a8"
+    },
+    {
+      "type": "terms",
+      "language": "es-419",
+      "version": "2",
+      "required": true,
+      "url": "es-419/terms_es-419_v2.html",
+      "sha256": "aeccc6094fc012df6702017f9d58ef296cf9509bdee7d020b6ed5fba84142067"
+    },
+    {
+      "type": "privacy",
+      "language": "es-419",
+      "version": "2",
+      "required": true,
+      "url": "es-419/privacy_es-419_v2.html",
+      "sha256": "898d5331e7ff35a69e34990c8fc56ee8ac2f1568561a44266869a55510697e3c"
+    },
+    {
+      "type": "disclaimer",
+      "language": "es-419",
+      "version": "2",
+      "required": true,
+      "url": "es-419/disclaimer_es-419_v2.html",
+      "sha256": "678ce333f05f2e3de206603ec3fbad4883f076783ce7ba47e992ae3ae0b01d99"
+    },
+    {
+      "type": "help",
+      "language": "es-419",
+      "version": "1",
+      "required": false,
+      "url": "es-419/help.html",
+      "sha256": "b339371bcc3ab6de9e88463a92672182802a06f10f0fc2748d23a112e8825de7"
+    },
+    {
+      "type": "terms",
+      "language": "pt-BR",
+      "version": "2",
+      "required": true,
+      "url": "pt-BR/terms_pt-BR_v2.html",
+      "sha256": "cfd431d2b7a87c6d4f20dff971900671f6f2bc455ab4edc3de99bbecdda680bd"
+    },
+    {
+      "type": "privacy",
+      "language": "pt-BR",
+      "version": "2",
+      "required": true,
+      "url": "pt-BR/privacy_pt-BR_v2.html",
+      "sha256": "00b929496d8897eca7df1da123007117cf018e8d9ea8fdb820d1066883c7f4b2"
+    },
+    {
+      "type": "disclaimer",
+      "language": "pt-BR",
+      "version": "2",
+      "required": true,
+      "url": "pt-BR/disclaimer_pt-BR_v2.html",
+      "sha256": "93d4b0fc85f867b46fa2d9c1c084d66cbc8b9b985c8eb91bccb2cb368c464c06"
+    },
+    {
+      "type": "help",
+      "language": "pt-BR",
+      "version": "1",
+      "required": false,
+      "url": "pt-BR/help.html",
+      "sha256": "07d42a6e5ac3920b5f9b0bfb5add6e02da89465e42b6537d5e91bb91d1e7ca12"
+    },
+    {
+      "type": "terms",
+      "language": "pl",
+      "version": "2",
+      "required": true,
+      "url": "pl/terms_pl_v2.html",
+      "sha256": "2b64a714396304645463de98bdee8570aa34965e7e5f7a0aefb185f7aa041d35"
+    },
+    {
+      "type": "privacy",
+      "language": "pl",
+      "version": "2",
+      "required": true,
+      "url": "pl/privacy_pl_v2.html",
+      "sha256": "92850e82491378a3e0841b01ebd646d80c19daa4539dad5511be0ec1cb7ffc66"
+    },
+    {
+      "type": "disclaimer",
+      "language": "pl",
+      "version": "2",
+      "required": true,
+      "url": "pl/disclaimer_pl_v2.html",
+      "sha256": "f9f2b90641dbe6b14b61ef2d3543cdd0e4561e1fa1bd1e2286585e921d8f6407"
+    },
+    {
+      "type": "help",
+      "language": "pl",
+      "version": "1",
+      "required": false,
+      "url": "pl/help.html",
+      "sha256": "d3419ed798708e4d9946de46421d362c7a757f2ff0be740f6dca914c3878629e"
+    },
+    {
+      "type": "terms",
+      "language": "de",
+      "version": "2",
+      "required": true,
+      "url": "de/terms_de_v2.html",
+      "sha256": "9c7bb9962b632f75dce9da394e723a6463064a6848bb33bd99eb920c608bb956"
+    },
+    {
+      "type": "privacy",
+      "language": "de",
+      "version": "2",
+      "required": true,
+      "url": "de/privacy_de_v2.html",
+      "sha256": "370ebff7ecf22509fb8480fe5415a9256ac0a82674e5288910e00b9db44ddd62"
+    },
+    {
+      "type": "disclaimer",
+      "language": "de",
+      "version": "2",
+      "required": true,
+      "url": "de/disclaimer_de_v2.html",
+      "sha256": "c9554b5f3ca2a7067dc7b06067f87f5d6214078cd56511f62e7359922c3e70cb"
+    },
+    {
+      "type": "help",
+      "language": "de",
+      "version": "1",
+      "required": false,
+      "url": "de/help.html",
+      "sha256": "6d188ecea132af15616e06aaf65837b6cc1d11b360ac8174ffc13e5f213e1cba"
+    },
+    {
+      "type": "terms",
+      "language": "fr",
+      "version": "2",
+      "required": true,
+      "url": "fr/terms_fr_v2.html",
+      "sha256": "48351bce13b5bee9d8f52671fadaeee3836e161fbdf1f050ab4689210c5c7216"
+    },
+    {
+      "type": "privacy",
+      "language": "fr",
+      "version": "2",
+      "required": true,
+      "url": "fr/privacy_fr_v2.html",
+      "sha256": "2d55e07c34d77994ab8404bc3229c3d1b620134aa124a7f137d0e91200be222d"
+    },
+    {
+      "type": "disclaimer",
+      "language": "fr",
+      "version": "2",
+      "required": true,
+      "url": "fr/disclaimer_fr_v2.html",
+      "sha256": "6f49517faa4869b2b000ea266f870a82e85eac8d8602dd9c426af367083d6598"
+    },
+    {
+      "type": "help",
+      "language": "fr",
+      "version": "1",
+      "required": false,
+      "url": "fr/help.html",
+      "sha256": "391e16a7c72847eb8e4315323782ce0dd5053eaea46d8609aaa4a0def691f2c3"
+    },
+    {
+      "type": "terms",
+      "language": "it",
+      "version": "2",
+      "required": true,
+      "url": "it/terms_it_v2.html",
+      "sha256": "54ca4a3f1d9d020d820feec2a029c70548789492c4a9fd455d202be97f452bbc"
+    },
+    {
+      "type": "privacy",
+      "language": "it",
+      "version": "2",
+      "required": true,
+      "url": "it/privacy_it_v2.html",
+      "sha256": "f40991f37a17a3940f1593f84b7ed5efac46cffc275c44aafcd2f4933f4812b8"
+    },
+    {
+      "type": "disclaimer",
+      "language": "it",
+      "version": "2",
+      "required": true,
+      "url": "it/disclaimer_it_v2.html",
+      "sha256": "ef6d199d1bd5500bbfe4e7734033b68eafa04a98090534be8cff3ded501ee8be"
+    },
+    {
+      "type": "help",
+      "language": "it",
+      "version": "1",
+      "required": false,
+      "url": "it/help.html",
+      "sha256": "686969782ba5735cd76331a21e0c70d659daef1bb1e183eaa5828f83508466c3"
+    },
+    {
+      "type": "terms",
+      "language": "es-ES",
+      "version": "2",
+      "required": true,
+      "url": "es-ES/terms_es-ES_v2.html",
+      "sha256": "0f8234d1c7a390dc67cbce27de8f85702abf34b01daae6fb8e57a1422e2152dd"
+    },
+    {
+      "type": "privacy",
+      "language": "es-ES",
+      "version": "2",
+      "required": true,
+      "url": "es-ES/privacy_es-ES_v2.html",
+      "sha256": "a0928e52603ec3de9b70bc9f2f929e51e6ea8f3bb463a68b57364d8dbd649a5f"
+    },
+    {
+      "type": "disclaimer",
+      "language": "es-ES",
+      "version": "2",
+      "required": true,
+      "url": "es-ES/disclaimer_es-ES_v2.html",
+      "sha256": "58d22283abb6c9b3492c14ad289d96cec2b6f3a6b251c3fff39b6b01887d8dde"
+    },
+    {
+      "type": "help",
+      "language": "es-ES",
+      "version": "1",
+      "required": false,
+      "url": "es-ES/help.html",
+      "sha256": "bcb03a0ef9ad30345cb25530f3c06ea3b118d5000b4f235f4bc031fa1f22c83e"
+    },
+    {
+      "type": "terms",
+      "language": "pt-PT",
+      "version": "2",
+      "required": true,
+      "url": "pt-PT/terms_pt-PT_v2.html",
+      "sha256": "d880accbf20ccc3a1aca95539a356b60d84315676444c72efa67d876229bfc0c"
+    },
+    {
+      "type": "privacy",
+      "language": "pt-PT",
+      "version": "2",
+      "required": true,
+      "url": "pt-PT/privacy_pt-PT_v2.html",
+      "sha256": "fd7a991fde75f55aa71b4d56e696bee17e37b50b40562a69d9c647eef7b4710a"
+    },
+    {
+      "type": "disclaimer",
+      "language": "pt-PT",
+      "version": "2",
+      "required": true,
+      "url": "pt-PT/disclaimer_pt-PT_v2.html",
+      "sha256": "445d7f89a41c2b41b2e74b9869abde5f7b60cf03997b159b406fdfdfcb332c4e"
+    },
+    {
+      "type": "help",
+      "language": "pt-PT",
+      "version": "1",
+      "required": false,
+      "url": "pt-PT/help.html",
+      "sha256": "1c9424af16a66d9757f43038c67f6fcb0aa8b276e6d4589f10e70260e1bf17d1"
+    },
+    {
+      "type": "terms",
+      "language": "tr",
+      "version": "2",
+      "required": true,
+      "url": "tr/terms_tr_v2.html",
+      "sha256": "f096f3845baad1a8127a8f51847ae771a2aec66a4319507d8d596fa557cecc72"
+    },
+    {
+      "type": "privacy",
+      "language": "tr",
+      "version": "2",
+      "required": true,
+      "url": "tr/privacy_tr_v2.html",
+      "sha256": "7dc3d8e36f304f3294ac5b39813a4e799157845e461662515b2b14269c057a19"
+    },
+    {
+      "type": "disclaimer",
+      "language": "tr",
+      "version": "2",
+      "required": true,
+      "url": "tr/disclaimer_tr_v2.html",
+      "sha256": "45198f6446955c24e65fa7c472b15115bb5ab399bd003d53c7ce2f882e7a0556"
+    },
+    {
+      "type": "help",
+      "language": "tr",
+      "version": "1",
+      "required": false,
+      "url": "tr/help.html",
+      "sha256": "3e9a6dc0ed034d9e2ada3470a1a4e3fdc35a6f678708819dc5611ccc85f564cc"
+    },
+    {
+      "type": "terms",
+      "language": "uk",
+      "version": "2",
+      "required": true,
+      "url": "uk/terms_uk_v2.html",
+      "sha256": "d9bdca33f1c9d615b8fb57f5f39b9b904745f3c0d28da88ff59e7d38af625a3e"
+    },
+    {
+      "type": "privacy",
+      "language": "uk",
+      "version": "2",
+      "required": true,
+      "url": "uk/privacy_uk_v2.html",
+      "sha256": "39a0bad560a4446b526c7bb3159419d277ece942d5568eb852cc43711e142185"
+    },
+    {
+      "type": "disclaimer",
+      "language": "uk",
+      "version": "2",
+      "required": true,
+      "url": "uk/disclaimer_uk_v2.html",
+      "sha256": "347f6710119f29987ef3852966181df8d2caf4907a2c8ab5c3824fd3d8f935ac"
+    },
+    {
+      "type": "help",
+      "language": "uk",
+      "version": "1",
+      "required": false,
+      "url": "uk/help.html",
+      "sha256": "11b07e74538ebc547a8567264c85dc36c8ea3ecaf5e338da7ad4921392036ebc"
+    },
+    {
+      "type": "terms",
+      "language": "cs",
+      "version": "2",
+      "required": true,
+      "url": "cs/terms_cs_v2.html",
+      "sha256": "cb9ee84f20d7cd2f56b3e452eb795f3e0b7e5bdeae146373fff7576e4db31cc4"
+    },
+    {
+      "type": "privacy",
+      "language": "cs",
+      "version": "2",
+      "required": true,
+      "url": "cs/privacy_cs_v2.html",
+      "sha256": "ac6cd637957fa70c5262cbe41176974eddfeb5db1527425403a3cb81c3642a0b"
+    },
+    {
+      "type": "disclaimer",
+      "language": "cs",
+      "version": "2",
+      "required": true,
+      "url": "cs/disclaimer_cs_v2.html",
+      "sha256": "0b909ea5c1c29603a7e0983f979937de5b5c0b61d5aae6d867eb077ab10b64fe"
+    },
+    {
+      "type": "help",
+      "language": "cs",
+      "version": "1",
+      "required": false,
+      "url": "cs/help.html",
+      "sha256": "f7bcd248677e3381e4dd05dd92f1b30457f970906c65265a8801683a7c33c1fe"
+    },
+    {
+      "type": "terms",
+      "language": "nl",
+      "version": "2",
+      "required": true,
+      "url": "nl/terms_nl_v2.html",
+      "sha256": "01cb3a12e8f7abff9a9ab4c7229d5e7b790e696296ce17c41005c2df9495eb42"
+    },
+    {
+      "type": "privacy",
+      "language": "nl",
+      "version": "2",
+      "required": true,
+      "url": "nl/privacy_nl_v2.html",
+      "sha256": "e645c6fafde8ba39ba9ec8431fd75521d2ebd28d49b20522e4c2d1d7ad4b2b3c"
+    },
+    {
+      "type": "disclaimer",
+      "language": "nl",
+      "version": "2",
+      "required": true,
+      "url": "nl/disclaimer_nl_v2.html",
+      "sha256": "b6ec60193110cd5c286d24292e248cd548338ccb4075683a38ddbb37a2c0c17c"
+    },
+    {
+      "type": "help",
+      "language": "nl",
+      "version": "1",
+      "required": false,
+      "url": "nl/help.html",
+      "sha256": "8406a3460a81f8cb6635a3eef4fe6bc84a4ed1c69fedaddd1efb7f4f6236a0e4"
+    },
+    {
+      "type": "terms",
+      "language": "ro",
+      "version": "2",
+      "required": true,
+      "url": "ro/terms_ro_v2.html",
+      "sha256": "94e94e49e72510d2769bc52eef2f75d635eee95af8e0b411452fcaf7a3fd7fd6"
+    },
+    {
+      "type": "privacy",
+      "language": "ro",
+      "version": "2",
+      "required": true,
+      "url": "ro/privacy_ro_v2.html",
+      "sha256": "fa7d470737fe893c2963e0a0697d8cfdbc36176094a1a80420b7ce9c3bbbc2a0"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ro",
+      "version": "2",
+      "required": true,
+      "url": "ro/disclaimer_ro_v2.html",
+      "sha256": "5f6a1fb970b652256446a4d4f98b343313b78e05f4e89a0f4fa280da34c6acb7"
+    },
+    {
+      "type": "help",
+      "language": "ro",
+      "version": "1",
+      "required": false,
+      "url": "ro/help.html",
+      "sha256": "8eed61ff13f4bb6ea825b1d758b13d1dce5435561d1de2e20568e0e9a4502afa"
+    },
+    {
+      "type": "terms",
+      "language": "ja",
+      "version": "2",
+      "required": true,
+      "url": "ja/terms_ja_v2.html",
+      "sha256": "64329d001b390da89b43120982bce29e8d7d07be8fe0d892cc7de6f186fcfe17"
+    },
+    {
+      "type": "privacy",
+      "language": "ja",
+      "version": "2",
+      "required": true,
+      "url": "ja/privacy_ja_v2.html",
+      "sha256": "6be1cb4f4871a5f5453a004bc91afa6d4ac96a08bf8ec8f117635460f841bfb4"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ja",
+      "version": "2",
+      "required": true,
+      "url": "ja/disclaimer_ja_v2.html",
+      "sha256": "73406e87c1131dfcb210b21156b42fb5ab94af8b07db2c7490d584310b0d8b3d"
+    },
+    {
+      "type": "help",
+      "language": "ja",
+      "version": "1",
+      "required": false,
+      "url": "ja/help.html",
+      "sha256": "f61e4d709aa0bbc57fdcbb27ffaf62f62a71035acbc00d80a04bb7acbd78c5a5"
+    },
+    {
+      "type": "terms",
+      "language": "ko",
+      "version": "2",
+      "required": true,
+      "url": "ko/terms_ko_v2.html",
+      "sha256": "59bb39695a69026ee8cdedc003f45a65dfeddbafe7c85f083bb1f8cf5bef66d6"
+    },
+    {
+      "type": "privacy",
+      "language": "ko",
+      "version": "2",
+      "required": true,
+      "url": "ko/privacy_ko_v2.html",
+      "sha256": "d0de5fbe268c07c562b5393048e35821b01cb2dc3c42ba600e82585ff6f32427"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ko",
+      "version": "2",
+      "required": true,
+      "url": "ko/disclaimer_ko_v2.html",
+      "sha256": "bc6531bf7e8338a38608884771d3997415a38528de7054d2930418dff897633d"
+    },
+    {
+      "type": "help",
+      "language": "ko",
+      "version": "1",
+      "required": false,
+      "url": "ko/help.html",
+      "sha256": "54ce4b50cc03c23132743a2e3da68f62a508545d2185f687fff10d46e28db211"
+    },
+    {
+      "type": "terms",
+      "language": "hi",
+      "version": "2",
+      "required": true,
+      "url": "hi/terms_hi_v2.html",
+      "sha256": "ebc6b856ade74d3be6504851831958d13b4236d9ead21273e0430894f60cec71"
+    },
+    {
+      "type": "privacy",
+      "language": "hi",
+      "version": "2",
+      "required": true,
+      "url": "hi/privacy_hi_v2.html",
+      "sha256": "df60b1722b94fd26bdeb33d90abbe9cbeff4048e756caf453976a9405e44df0f"
+    },
+    {
+      "type": "disclaimer",
+      "language": "hi",
+      "version": "2",
+      "required": true,
+      "url": "hi/disclaimer_hi_v2.html",
+      "sha256": "f73071607ee76a62d4b0e75a35fc88cc64fcd60d78c9e43e08b56f5d1a471927"
+    },
+    {
+      "type": "help",
+      "language": "hi",
+      "version": "1",
+      "required": false,
+      "url": "hi/help.html",
+      "sha256": "585617d44facd020ea9e9edbb920c4f064190e6096ced46dc2b52ae980ba8efd"
+    },
+    {
+      "type": "terms",
+      "language": "id",
+      "version": "2",
+      "required": true,
+      "url": "id/terms_id_v2.html",
+      "sha256": "c0a9bb0af57f915739ef27ab19ab79383346b12e05cdeb6d8bb4985b30aec2fe"
+    },
+    {
+      "type": "privacy",
+      "language": "id",
+      "version": "2",
+      "required": true,
+      "url": "id/privacy_id_v2.html",
+      "sha256": "1e4692173f54585136e5008ea867bc1c2a4c5a025104682e5e00d4a7065119fd"
+    },
+    {
+      "type": "disclaimer",
+      "language": "id",
+      "version": "2",
+      "required": true,
+      "url": "id/disclaimer_id_v2.html",
+      "sha256": "00e757f4165d073d7208d05ac1ec1db22d18b58a2c0255ab1dc78a980c8c4510"
+    },
+    {
+      "type": "help",
+      "language": "id",
+      "version": "1",
+      "required": false,
+      "url": "id/help.html",
+      "sha256": "1e9ce99a439ab9be6a7ad92163c3802fd24daa8c463edc8409176411cbeef8c7"
+    },
+    {
+      "type": "terms",
+      "language": "vi",
+      "version": "2",
+      "required": true,
+      "url": "vi/terms_vi_v2.html",
+      "sha256": "186a01afa3d59f071b454a4231b993f843cd901870d0b4c97bff1224f5677a3f"
+    },
+    {
+      "type": "privacy",
+      "language": "vi",
+      "version": "2",
+      "required": true,
+      "url": "vi/privacy_vi_v2.html",
+      "sha256": "979aebcaa4e9f1889c64c5b63ba9b7a6e23bfb66044206d67543d4b70d7675b5"
+    },
+    {
+      "type": "disclaimer",
+      "language": "vi",
+      "version": "2",
+      "required": true,
+      "url": "vi/disclaimer_vi_v2.html",
+      "sha256": "8cac65a461eeb1a077eeb27b323b93dd25e76fd1ba12234c18009a3055e020cb"
+    },
+    {
+      "type": "help",
+      "language": "vi",
+      "version": "1",
+      "required": false,
+      "url": "vi/help.html",
+      "sha256": "e9ff64077eedcfc64d036ad690a0876e04d5d480b8921e2cf79e4c47e61d1414"
+    },
+    {
+      "type": "terms",
+      "language": "th",
+      "version": "2",
+      "required": true,
+      "url": "th/terms_th_v2.html",
+      "sha256": "c1d62c9d45bc82338110d6bfae10d089d44ce9e8e4e7a34744541e76c1f73839"
+    },
+    {
+      "type": "privacy",
+      "language": "th",
+      "version": "2",
+      "required": true,
+      "url": "th/privacy_th_v2.html",
+      "sha256": "90f19a9b81726f9e917714c8f9b9bdf312b6bd3f54983a2efd4943a5fad621ae"
+    },
+    {
+      "type": "disclaimer",
+      "language": "th",
+      "version": "2",
+      "required": true,
+      "url": "th/disclaimer_th_v2.html",
+      "sha256": "74e881152cf2a4475304095fb5ecef525c8ea21e1a03fcff004c0130c060d519"
+    },
+    {
+      "type": "help",
+      "language": "th",
+      "version": "1",
+      "required": false,
+      "url": "th/help.html",
+      "sha256": "b2e448855cd425f7063593a8148fcc9e49376b477861de713bef1b677dd0d434"
+    },
+    {
+      "type": "terms",
+      "language": "fil",
+      "version": "2",
+      "required": true,
+      "url": "fil/terms_fil_v2.html",
+      "sha256": "d1e2b9a1cbc08465f2eb9ff11a5b3b68434a12aa2ded448de639e35ccc6b08f1"
+    },
+    {
+      "type": "privacy",
+      "language": "fil",
+      "version": "2",
+      "required": true,
+      "url": "fil/privacy_fil_v2.html",
+      "sha256": "4f0069cfb9978731b3982fc67105dc4063cf7894e395a572014d36da46264d9d"
+    },
+    {
+      "type": "disclaimer",
+      "language": "fil",
+      "version": "2",
+      "required": true,
+      "url": "fil/disclaimer_fil_v2.html",
+      "sha256": "19d9577c279f9185305d1765035f8630cbe1d4d0aa16cc5d2ffbb739267f10bd"
+    },
+    {
+      "type": "help",
+      "language": "fil",
+      "version": "1",
+      "required": false,
+      "url": "fil/help.html",
+      "sha256": "60011f7588de0ad406e18055ca305d85d130dc5d132bbfbc2c1134c0a783ad44"
+    },
+    {
+      "type": "terms",
+      "language": "ms",
+      "version": "2",
+      "required": true,
+      "url": "ms/terms_ms_v2.html",
+      "sha256": "553382664cea24a9edc241ff3256d51e26f848115150941e348061645357294f"
+    },
+    {
+      "type": "privacy",
+      "language": "ms",
+      "version": "2",
+      "required": true,
+      "url": "ms/privacy_ms_v2.html",
+      "sha256": "2917d0052b7da70f2c9f1ad5c2f714b75ac5a0bf875b0c1f784b969c54f79441"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ms",
+      "version": "2",
+      "required": true,
+      "url": "ms/disclaimer_ms_v2.html",
+      "sha256": "267a6b3118ca63bfd0dd40dbe1d8d96f26316cae6e31123f19dd2820290e5553"
+    },
+    {
+      "type": "help",
+      "language": "ms",
+      "version": "1",
+      "required": false,
+      "url": "ms/help.html",
+      "sha256": "a276d4e9a651089c5a7cf51801d4ea603b3e3fef42375781c16bd670b911e155"
+    },
+    {
+      "type": "terms",
+      "language": "bn",
+      "version": "2",
+      "required": true,
+      "url": "bn/terms_bn_v2.html",
+      "sha256": "2ae922aa402b86dfbb86da0bbb467d834795cde2bc53393255e35271f5f64d77"
+    },
+    {
+      "type": "privacy",
+      "language": "bn",
+      "version": "2",
+      "required": true,
+      "url": "bn/privacy_bn_v2.html",
+      "sha256": "e4f9a9ad424d90abf111eff0f3606d1fac961bc6ae40d2429a8bc79d253fe5ca"
+    },
+    {
+      "type": "disclaimer",
+      "language": "bn",
+      "version": "2",
+      "required": true,
+      "url": "bn/disclaimer_bn_v2.html",
+      "sha256": "9856a5ee6f98b148307c3411b3546f025a12152bed2ff06a80fad162b002f785"
+    },
+    {
+      "type": "help",
+      "language": "bn",
+      "version": "1",
+      "required": false,
+      "url": "bn/help.html",
+      "sha256": "2f4e2935bb33572e584a1db52506bbeffa280d1f88d95a7038fd0830a093b5ea"
+    },
+    {
+      "type": "terms",
+      "language": "ta",
+      "version": "2",
+      "required": true,
+      "url": "ta/terms_ta_v2.html",
+      "sha256": "2a496738450f23775f1da92aa8ba579df6a44e5b21e29015eae8c8465b8c8be4"
+    },
+    {
+      "type": "privacy",
+      "language": "ta",
+      "version": "2",
+      "required": true,
+      "url": "ta/privacy_ta_v2.html",
+      "sha256": "cc8937bdf49b3e1d8372ca1ba44a9c78a90df2ce2e5a6225e1bedfe85cb6ab2e"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ta",
+      "version": "2",
+      "required": true,
+      "url": "ta/disclaimer_ta_v2.html",
+      "sha256": "14190b6cf54bd6de19610c11f4ffa464f1eefad8826293314a023dc3c365ef0a"
+    },
+    {
+      "type": "help",
+      "language": "ta",
+      "version": "1",
+      "required": false,
+      "url": "ta/help.html",
+      "sha256": "aa620416af2ed750d04b53328248c7e908e31d4ebf1f63fc53147f56537a92c4"
+    },
+    {
+      "type": "terms",
+      "language": "sv",
+      "version": "2",
+      "required": true,
+      "url": "sv/terms_sv_v2.html",
+      "sha256": "ddf6f45508e93a2de657310e5d3cf7fbf9ff8db396250c0cd4afba7a3b2badbb"
+    },
+    {
+      "type": "privacy",
+      "language": "sv",
+      "version": "2",
+      "required": true,
+      "url": "sv/privacy_sv_v2.html",
+      "sha256": "792ece0ae67e2d5a2d27c75b10daa4001a2b14cb5f8df9756610e793087a31a6"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sv",
+      "version": "2",
+      "required": true,
+      "url": "sv/disclaimer_sv_v2.html",
+      "sha256": "3d628c22013bf3580c0a42f33bf62ec71701d54952cd646e7b8ee5995a1a2c0a"
+    },
+    {
+      "type": "help",
+      "language": "sv",
+      "version": "1",
+      "required": false,
+      "url": "sv/help.html",
+      "sha256": "52f22960f7010635e45e9f011e8e40476e07729b9258c84e58d90f0a81d20ced"
+    },
+    {
+      "type": "terms",
+      "language": "nb",
+      "version": "2",
+      "required": true,
+      "url": "nb/terms_nb_v2.html",
+      "sha256": "69212179b732ebbce2de5b6676023ea1c1d1915a2e1aab342d5fcf66dd228263"
+    },
+    {
+      "type": "privacy",
+      "language": "nb",
+      "version": "2",
+      "required": true,
+      "url": "nb/privacy_nb_v2.html",
+      "sha256": "2e2ee3ef299b18a09c773791ec9e0ca5d21add94b7f088a557e41466cac09139"
+    },
+    {
+      "type": "disclaimer",
+      "language": "nb",
+      "version": "2",
+      "required": true,
+      "url": "nb/disclaimer_nb_v2.html",
+      "sha256": "09f65d78425e9e658c0f457779401c361fc83eb02bbf98941478712b63c7b86b"
+    },
+    {
+      "type": "help",
+      "language": "nb",
+      "version": "1",
+      "required": false,
+      "url": "nb/help.html",
+      "sha256": "7c9a8a8d63449c6c76c446f541da167ff20354a0e89f6f2f780972a0435b55d9"
+    },
+    {
+      "type": "terms",
+      "language": "da",
+      "version": "2",
+      "required": true,
+      "url": "da/terms_da_v2.html",
+      "sha256": "3a114fd9e0e62374f0a59ffccef03aafbb2f2bc16c5bea4279fd9ec49798220d"
+    },
+    {
+      "type": "privacy",
+      "language": "da",
+      "version": "2",
+      "required": true,
+      "url": "da/privacy_da_v2.html",
+      "sha256": "7bde57d8ae8b80a66a960f231031e41daeb54fd984426472093a579cd27bd32e"
+    },
+    {
+      "type": "disclaimer",
+      "language": "da",
+      "version": "2",
+      "required": true,
+      "url": "da/disclaimer_da_v2.html",
+      "sha256": "1368c082915a8ac1eef0c4ef181e3ac3a0fcbeef318001e789cf9a6e741e43c7"
+    },
+    {
+      "type": "help",
+      "language": "da",
+      "version": "1",
+      "required": false,
+      "url": "da/help.html",
+      "sha256": "57be3743f0c7e315a883f08d2ff43d3c27a132223b810f1aea205bc4ffe8f296"
+    },
+    {
+      "type": "terms",
+      "language": "fi",
+      "version": "2",
+      "required": true,
+      "url": "fi/terms_fi_v2.html",
+      "sha256": "f73c5fe69b2004ffc1694aaf5f7c513a51f5aa3c32693a2b5c0ecdd1d3c567f7"
+    },
+    {
+      "type": "privacy",
+      "language": "fi",
+      "version": "2",
+      "required": true,
+      "url": "fi/privacy_fi_v2.html",
+      "sha256": "eaf438d28530029329bc6826a7d26e78f649a085d923d669e80f92e814f262d0"
+    },
+    {
+      "type": "disclaimer",
+      "language": "fi",
+      "version": "2",
+      "required": true,
+      "url": "fi/disclaimer_fi_v2.html",
+      "sha256": "e459bedb120e8683f0dbe9429ae78522e4bded8f3082fb7843995cc9787c5976"
+    },
+    {
+      "type": "help",
+      "language": "fi",
+      "version": "1",
+      "required": false,
+      "url": "fi/help.html",
+      "sha256": "a331f8959d06c927a884790932bd9f024e5274d46ce9b51060d3b32d0cd07556"
+    },
+    {
+      "type": "terms",
+      "language": "hu",
+      "version": "2",
+      "required": true,
+      "url": "hu/terms_hu_v2.html",
+      "sha256": "c198d5150034679c062d9ad41507b66e2d44c5677581ce657f38d078e6f20a93"
+    },
+    {
+      "type": "privacy",
+      "language": "hu",
+      "version": "2",
+      "required": true,
+      "url": "hu/privacy_hu_v2.html",
+      "sha256": "5773aca22f8c39216e4a40aa18bdae1d0a3dbecaef5b5b48ba59b0619ebb1334"
+    },
+    {
+      "type": "disclaimer",
+      "language": "hu",
+      "version": "2",
+      "required": true,
+      "url": "hu/disclaimer_hu_v2.html",
+      "sha256": "2f0ab6938e8b1f03bbb690fc5fe26aa5d9874c7b517e6ed6c0d0cccd01e8d77b"
+    },
+    {
+      "type": "help",
+      "language": "hu",
+      "version": "1",
+      "required": false,
+      "url": "hu/help.html",
+      "sha256": "4a51da8175ec5329cbef815196fb04c584f2b41862ac72b28fe643324bd054b3"
+    },
+    {
+      "type": "terms",
+      "language": "sk",
+      "version": "2",
+      "required": true,
+      "url": "sk/terms_sk_v2.html",
+      "sha256": "7c27cda283a976b17e134cfeace823742ab89a33b15277234dc232561be439d8"
+    },
+    {
+      "type": "privacy",
+      "language": "sk",
+      "version": "2",
+      "required": true,
+      "url": "sk/privacy_sk_v2.html",
+      "sha256": "da6a86e4737eb1cae50ea9e5f318b7ba545aba8a9ffd2bd97583f6a564f77fe4"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sk",
+      "version": "2",
+      "required": true,
+      "url": "sk/disclaimer_sk_v2.html",
+      "sha256": "f3581d512a063d35e6e62d1f4eb51adb37b749e3f04cf034b954be7b883899eb"
+    },
+    {
+      "type": "help",
+      "language": "sk",
+      "version": "1",
+      "required": false,
+      "url": "sk/help.html",
+      "sha256": "c7c7f346a04ef994dce37a0886915181b34c00196781e693313f73c2debad095"
+    },
+    {
+      "type": "terms",
+      "language": "bg",
+      "version": "2",
+      "required": true,
+      "url": "bg/terms_bg_v2.html",
+      "sha256": "6a12c7f8fd1bc5f06d961a0bc65e25ab814ec7612c2fccca9f14f84a4da92689"
+    },
+    {
+      "type": "privacy",
+      "language": "bg",
+      "version": "2",
+      "required": true,
+      "url": "bg/privacy_bg_v2.html",
+      "sha256": "5c840955c491c0f4aebcf75993500c669be25ba755a2d48d9c7d9895ca0b14a2"
+    },
+    {
+      "type": "disclaimer",
+      "language": "bg",
+      "version": "2",
+      "required": true,
+      "url": "bg/disclaimer_bg_v2.html",
+      "sha256": "5aca04d60473467cdbc40beeb35eff91a7b831ee883e5a8ad5224036d3038540"
+    },
+    {
+      "type": "help",
+      "language": "bg",
+      "version": "1",
+      "required": false,
+      "url": "bg/help.html",
+      "sha256": "183e4004c61bb75f43565c33dcf810be5ab6480be1fbf933521b637ed91b7738"
+    },
+    {
+      "type": "terms",
+      "language": "el",
+      "version": "2",
+      "required": true,
+      "url": "el/terms_el_v2.html",
+      "sha256": "9ab9120dff98af28a7f3e3ea500f51f5ebea920bd950e8982f62cbea8c4216da"
+    },
+    {
+      "type": "privacy",
+      "language": "el",
+      "version": "2",
+      "required": true,
+      "url": "el/privacy_el_v2.html",
+      "sha256": "eb781f4779795146b559932f0c3eda9b54697492a598e4e28e3e91c088334990"
+    },
+    {
+      "type": "disclaimer",
+      "language": "el",
+      "version": "2",
+      "required": true,
+      "url": "el/disclaimer_el_v2.html",
+      "sha256": "9cf2adc7c272d875832aa120772e00396a809c87e319560b58f318b9a74c780d"
+    },
+    {
+      "type": "help",
+      "language": "el",
+      "version": "1",
+      "required": false,
+      "url": "el/help.html",
+      "sha256": "cef915de32076a70214c611cdfbd312f596c5ea1011c00387a536da7647502d1"
+    },
+    {
+      "type": "terms",
+      "language": "hr",
+      "version": "2",
+      "required": true,
+      "url": "hr/terms_hr_v2.html",
+      "sha256": "a4fc8a8da7217f2a2ae5cdedd15b4701919fdd08b9104be84691f234c4f5ef8d"
+    },
+    {
+      "type": "privacy",
+      "language": "hr",
+      "version": "2",
+      "required": true,
+      "url": "hr/privacy_hr_v2.html",
+      "sha256": "912ecddb7bdfbd715bcecc39b1fa01c8fa4c9080cff46bb8b6593dc602f8bc07"
+    },
+    {
+      "type": "disclaimer",
+      "language": "hr",
+      "version": "2",
+      "required": true,
+      "url": "hr/disclaimer_hr_v2.html",
+      "sha256": "e6e1c4de25fd918ea9b8ce865321f88148acb753a18789a9b5b653f80632c39d"
+    },
+    {
+      "type": "help",
+      "language": "hr",
+      "version": "1",
+      "required": false,
+      "url": "hr/help.html",
+      "sha256": "5e6ddebd3e3ea6af5d9db9692c51748a77dbcd9a1b75c4232f6c325a19e6df6f"
+    },
+    {
+      "type": "terms",
+      "language": "sl",
+      "version": "2",
+      "required": true,
+      "url": "sl/terms_sl_v2.html",
+      "sha256": "3496ea2bfbb56f74e87be943e67a41794219755d185ba8b2e9683bf2ae3971e1"
+    },
+    {
+      "type": "privacy",
+      "language": "sl",
+      "version": "2",
+      "required": true,
+      "url": "sl/privacy_sl_v2.html",
+      "sha256": "8c670f2bb396c261203dd054e990dad56a2500bab519af6da6b9eee3b9d3c24f"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sl",
+      "version": "2",
+      "required": true,
+      "url": "sl/disclaimer_sl_v2.html",
+      "sha256": "212dc907810e424fce60621af137353dc68199207bbb29f0a925c7df2c6a0d34"
+    },
+    {
+      "type": "help",
+      "language": "sl",
+      "version": "1",
+      "required": false,
+      "url": "sl/help.html",
+      "sha256": "5e27ace08fd4d7bf72b1d8a1802ce8dd8d1c554fb447c8ce20e396caaf0b91dd"
+    },
+    {
+      "type": "terms",
+      "language": "sr",
+      "version": "2",
+      "required": true,
+      "url": "sr/terms_sr_v2.html",
+      "sha256": "295b3b4b0ec9fae9de63979e7541fa321468d09a90b97b9c54af1a816578cd6c"
+    },
+    {
+      "type": "privacy",
+      "language": "sr",
+      "version": "2",
+      "required": true,
+      "url": "sr/privacy_sr_v2.html",
+      "sha256": "1de3c923fd89febee676a7862147fb231caf799e05f2e69c289f321ac5e20651"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sr",
+      "version": "2",
+      "required": true,
+      "url": "sr/disclaimer_sr_v2.html",
+      "sha256": "535d222ee00eb7d8b1c10cb0e3da57eb61371645887f3eaed1830ad5f4d2dcdc"
+    },
+    {
+      "type": "help",
+      "language": "sr",
+      "version": "1",
+      "required": false,
+      "url": "sr/help.html",
+      "sha256": "edefb91d76646dd3f2ea291be15bf5a53ca77e2a9a4cf4087b1a32194e3c1261"
+    },
+    {
+      "type": "terms",
+      "language": "sr-Latn",
+      "version": "2",
+      "required": true,
+      "url": "sr-Latn/terms_sr-Latn_v2.html",
+      "sha256": "bcd99762b4491bac733961a142b0f22d8e149643c3e4cd63303547e9cc50888c"
+    },
+    {
+      "type": "privacy",
+      "language": "sr-Latn",
+      "version": "2",
+      "required": true,
+      "url": "sr-Latn/privacy_sr-Latn_v2.html",
+      "sha256": "6fa70b7f1f7846e3e66444cd12cc1980565c73135774b6399a61b42ff8fb07ba"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sr-Latn",
+      "version": "2",
+      "required": true,
+      "url": "sr-Latn/disclaimer_sr-Latn_v2.html",
+      "sha256": "63776772c4d930638be38f529de2c5c391e60b256a130608380d3583006513ea"
+    },
+    {
+      "type": "help",
+      "language": "sr-Latn",
+      "version": "1",
+      "required": false,
+      "url": "sr-Latn/help.html",
+      "sha256": "22904a395cf76944fe55d21801731c87b8d242d53a02364aa7346888be052d74"
+    },
+    {
+      "type": "terms",
+      "language": "lt",
+      "version": "2",
+      "required": true,
+      "url": "lt/terms_lt_v2.html",
+      "sha256": "0483d2efd5cdc9c7090fca8ab1cd5182f185f8c1e2a388970b76e9c63a9a2bf5"
+    },
+    {
+      "type": "privacy",
+      "language": "lt",
+      "version": "2",
+      "required": true,
+      "url": "lt/privacy_lt_v2.html",
+      "sha256": "78f55dd3e541f8961a1248648a2460cfa35611022718b66f119335ef3052d533"
+    },
+    {
+      "type": "disclaimer",
+      "language": "lt",
+      "version": "2",
+      "required": true,
+      "url": "lt/disclaimer_lt_v2.html",
+      "sha256": "950e65c21ce9450b18361bee46e39ce7892fbdb7bd34637a575609bbbfb0bf00"
+    },
+    {
+      "type": "help",
+      "language": "lt",
+      "version": "1",
+      "required": false,
+      "url": "lt/help.html",
+      "sha256": "738e13d7c79bd444b97f8c1003ffd9191534dae16814780854dbb4bcb06fc852"
+    },
+    {
+      "type": "terms",
+      "language": "lv",
+      "version": "2",
+      "required": true,
+      "url": "lv/terms_lv_v2.html",
+      "sha256": "8f75210f06d2ed96fe3db170f64ca642db9ac2bb790c07c1b69d9a46d08540b4"
+    },
+    {
+      "type": "privacy",
+      "language": "lv",
+      "version": "2",
+      "required": true,
+      "url": "lv/privacy_lv_v2.html",
+      "sha256": "ba79b6d4bd54b5e018be3bbb62c0f22f429420059539081ad2e9ec66b5425321"
+    },
+    {
+      "type": "disclaimer",
+      "language": "lv",
+      "version": "2",
+      "required": true,
+      "url": "lv/disclaimer_lv_v2.html",
+      "sha256": "b1c9e7146b05b8e61fa87fdcf748e3c42f328d1be48969bfb277cf93480d6a6d"
+    },
+    {
+      "type": "help",
+      "language": "lv",
+      "version": "1",
+      "required": false,
+      "url": "lv/help.html",
+      "sha256": "8849f1ab0f8271b7dac779695004e0eb17a512c61fc94587fcb81bfe3fb27e59"
+    },
+    {
+      "type": "terms",
+      "language": "et",
+      "version": "2",
+      "required": true,
+      "url": "et/terms_et_v2.html",
+      "sha256": "cb4f6dd3843ff00e0813e2429d39ce210ee82c7991a3e8a7d9e314d1af89bd20"
+    },
+    {
+      "type": "privacy",
+      "language": "et",
+      "version": "2",
+      "required": true,
+      "url": "et/privacy_et_v2.html",
+      "sha256": "ff3697e2dc75fd4c54402759ebb74ff12eb17c3d75f9342c33f9b95a1afb31c0"
+    },
+    {
+      "type": "disclaimer",
+      "language": "et",
+      "version": "2",
+      "required": true,
+      "url": "et/disclaimer_et_v2.html",
+      "sha256": "c8240a07579a866e8d3c0a8287817d1099d8e85cde25f70f42392e81de2ed8af"
+    },
+    {
+      "type": "help",
+      "language": "et",
+      "version": "1",
+      "required": false,
+      "url": "et/help.html",
+      "sha256": "8902b32ede34a2513a66be0897a5517465f89b389bcc9364c2eca62fb4de649e"
+    },
+    {
+      "type": "terms",
+      "language": "be",
+      "version": "2",
+      "required": true,
+      "url": "be/terms_be_v2.html",
+      "sha256": "a91fdc4ee1f0035d829d3ab0eca6e404ebe8e01b173ff3810b0487bbefd88eb8"
+    },
+    {
+      "type": "privacy",
+      "language": "be",
+      "version": "2",
+      "required": true,
+      "url": "be/privacy_be_v2.html",
+      "sha256": "aec81c5828d90ee73cbc403b08cee78b49cafc4906a82007b076da93401eae4f"
+    },
+    {
+      "type": "disclaimer",
+      "language": "be",
+      "version": "2",
+      "required": true,
+      "url": "be/disclaimer_be_v2.html",
+      "sha256": "9db7d7a8ed3c37edc9183017bca4423b52503dcf4578a94d8010c6a73ea43c91"
+    },
+    {
+      "type": "help",
+      "language": "be",
+      "version": "1",
+      "required": false,
+      "url": "be/help.html",
+      "sha256": "59a9d99abe59927762abf9d32b7af7b4523249b87276deb5a0fe0a4884c51d4b"
+    },
+    {
+      "type": "terms",
+      "language": "mk",
+      "version": "2",
+      "required": true,
+      "url": "mk/terms_mk_v2.html",
+      "sha256": "b6bfabb498085c3dc09147b4b0cc11c767916e2e86f1556a06b9e39b8f52c372"
+    },
+    {
+      "type": "privacy",
+      "language": "mk",
+      "version": "2",
+      "required": true,
+      "url": "mk/privacy_mk_v2.html",
+      "sha256": "7221f8e48325bad5a2c82cd3ce5f26ee92f23c672293c36792c2dffa71d9784a"
+    },
+    {
+      "type": "disclaimer",
+      "language": "mk",
+      "version": "2",
+      "required": true,
+      "url": "mk/disclaimer_mk_v2.html",
+      "sha256": "aa0edaec0ba2c931e4c1aa628b47d81b3df0ea7bc3c931c7dced63cc6d719818"
+    },
+    {
+      "type": "help",
+      "language": "mk",
+      "version": "1",
+      "required": false,
+      "url": "mk/help.html",
+      "sha256": "b608442ac7f8ffd2fdec0785fd0f6436cd2ecea6702bc98ea6de7cf994f9d8cd"
+    },
+    {
+      "type": "terms",
+      "language": "sq",
+      "version": "2",
+      "required": true,
+      "url": "sq/terms_sq_v2.html",
+      "sha256": "4e1fa67b704ebc0a0e5d7159c0c9c83855cdf13d86d840c7118fdba71cf4c01b"
+    },
+    {
+      "type": "privacy",
+      "language": "sq",
+      "version": "2",
+      "required": true,
+      "url": "sq/privacy_sq_v2.html",
+      "sha256": "1fe012c17db4008150a38ab157a0f06a51150e035fd921893e780d5044336274"
+    },
+    {
+      "type": "disclaimer",
+      "language": "sq",
+      "version": "2",
+      "required": true,
+      "url": "sq/disclaimer_sq_v2.html",
+      "sha256": "ca90aca9f9add77ed05f3204e95dbcabc919cdb2ad841c10432607ca558eba1f"
+    },
+    {
+      "type": "help",
+      "language": "sq",
+      "version": "1",
+      "required": false,
+      "url": "sq/help.html",
+      "sha256": "e688ee3be5f49a2aca8435d56176cc8298c6a538e4897635c3a1edb768baa9af"
+    },
+    {
+      "type": "terms",
+      "language": "hy",
+      "version": "2",
+      "required": true,
+      "url": "hy/terms_hy_v2.html",
+      "sha256": "90bfe5898aa9300cbaf9411ec21e5a8c10c0a8e20b6223ff2f5d6bb5ab47e201"
+    },
+    {
+      "type": "privacy",
+      "language": "hy",
+      "version": "2",
+      "required": true,
+      "url": "hy/privacy_hy_v2.html",
+      "sha256": "54934e5b6db229f878559e15638aa5986b0dcaffebdceba5b9cd740b16803e4d"
+    },
+    {
+      "type": "disclaimer",
+      "language": "hy",
+      "version": "2",
+      "required": true,
+      "url": "hy/disclaimer_hy_v2.html",
+      "sha256": "4ea61315cd1d9f86d162e5511f228018951e4d0dc07b6e3fd8df9e15a7546cf7"
+    },
+    {
+      "type": "help",
+      "language": "hy",
+      "version": "1",
+      "required": false,
+      "url": "hy/help.html",
+      "sha256": "6a469199573e79c08e2c74bd94563968b33c2bcecbfb0cd241a32b3a79d8edb2"
+    },
+    {
+      "type": "terms",
+      "language": "ka",
+      "version": "2",
+      "required": true,
+      "url": "ka/terms_ka_v2.html",
+      "sha256": "456e7bbfc84461798816dab88ffb7d358eefdc316982d04b9273421230af2b24"
+    },
+    {
+      "type": "privacy",
+      "language": "ka",
+      "version": "2",
+      "required": true,
+      "url": "ka/privacy_ka_v2.html",
+      "sha256": "008ec31c1633d678be4dbee03ec215f668ead4ef6ef26bed3c5caf8df5f98a35"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ka",
+      "version": "2",
+      "required": true,
+      "url": "ka/disclaimer_ka_v2.html",
+      "sha256": "9d7cf404e28940ee4df1103a6bed5c88b5506ec49865fdfdae65ec6c907f85bf"
+    },
+    {
+      "type": "help",
+      "language": "ka",
+      "version": "1",
+      "required": false,
+      "url": "ka/help.html",
+      "sha256": "b30cfc7641f938807d2d0e55d99277b3af4bd337c4e4bda52dc079b7130db918"
+    },
+    {
+      "type": "terms",
+      "language": "fa",
+      "version": "2",
+      "required": true,
+      "url": "fa/terms_fa_v2.html",
+      "sha256": "4f7114ff15c63dab929706e30b3c6175abecdf7c3bda22c0e13f4b569917b77c"
+    },
+    {
+      "type": "privacy",
+      "language": "fa",
+      "version": "2",
+      "required": true,
+      "url": "fa/privacy_fa_v2.html",
+      "sha256": "312af46eaabd759a0cffa4d189638e403b0b9dcf46907d94ab71f64025e54824"
+    },
+    {
+      "type": "disclaimer",
+      "language": "fa",
+      "version": "2",
+      "required": true,
+      "url": "fa/disclaimer_fa_v2.html",
+      "sha256": "fa4ea99e86277634634a2fe426a410b06a9e5a36a634d5eb4d8752bb4a1f5b86"
+    },
+    {
+      "type": "help",
+      "language": "fa",
+      "version": "1",
+      "required": false,
+      "url": "fa/help.html",
+      "sha256": "3c226c8b4202c8f41fc4739db8ef89c990f6af8a3067415237a6ecc11563c527"
+    },
+    {
+      "type": "terms",
+      "language": "he",
+      "version": "2",
+      "required": true,
+      "url": "he/terms_he_v2.html",
+      "sha256": "89f5c9f66e44c5ae10c61bd3d1a0ac8a3b5ba355b47449c6287c1be8f7037e0c"
+    },
+    {
+      "type": "privacy",
+      "language": "he",
+      "version": "2",
+      "required": true,
+      "url": "he/privacy_he_v2.html",
+      "sha256": "702c7db54535ab2c84fe2777ba649258d7d9514b987d6ad3dae31f540c7333f3"
+    },
+    {
+      "type": "disclaimer",
+      "language": "he",
+      "version": "2",
+      "required": true,
+      "url": "he/disclaimer_he_v2.html",
+      "sha256": "48fe5b3a450e4cbb9b0b8d6afc4102cfbf8af97115656a928ef99246c1ba2c1d"
+    },
+    {
+      "type": "help",
+      "language": "he",
+      "version": "1",
+      "required": false,
+      "url": "he/help.html",
+      "sha256": "35438c4aac57402f496263d1326b1d71d4cdec702eab77b58e2f23b02e5725ac"
+    },
+    {
+      "type": "terms",
+      "language": "ur",
+      "version": "2",
+      "required": true,
+      "url": "ur/terms_ur_v2.html",
+      "sha256": "130f784c09e05031c0e508b6e93152d781346126147f2986e1525c956d778311"
+    },
+    {
+      "type": "privacy",
+      "language": "ur",
+      "version": "2",
+      "required": true,
+      "url": "ur/privacy_ur_v2.html",
+      "sha256": "dcd6a275dc46cb1ee1849d03f989ecc15d572fcc11d845edb40145832e9e04c5"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ur",
+      "version": "2",
+      "required": true,
+      "url": "ur/disclaimer_ur_v2.html",
+      "sha256": "97540f46219c1f8607560414cda939252f527437cca9fbaf768a65e0e324efc6"
+    },
+    {
+      "type": "help",
+      "language": "ur",
+      "version": "1",
+      "required": false,
+      "url": "ur/help.html",
+      "sha256": "deb3fef84cc632cb9b226c3cbd90f28769cc8ea22cf65b124d0d29c67fa5dcdb"
+    },
+    {
+      "type": "terms",
+      "language": "ckb",
+      "version": "2",
+      "required": true,
+      "url": "ckb/terms_ckb_v2.html",
+      "sha256": "3237464f8f8738f4238224118168583c8b9bf4ab578db1a166f7d16988709749"
+    },
+    {
+      "type": "privacy",
+      "language": "ckb",
+      "version": "2",
+      "required": true,
+      "url": "ckb/privacy_ckb_v2.html",
+      "sha256": "feede831e0a9488fa2fc650b1a7a0aad01e7aa30ff608339ce6fc1715d6c8a91"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ckb",
+      "version": "2",
+      "required": true,
+      "url": "ckb/disclaimer_ckb_v2.html",
+      "sha256": "7596f36103d430ece9798f19fd97bc0619576b19ced3092d8ee31da96692f640"
+    },
+    {
+      "type": "help",
+      "language": "ckb",
+      "version": "1",
+      "required": false,
+      "url": "ckb/help.html",
+      "sha256": "cb63ded0a97c800737b98de34cb018763ddeba3a6e3be6678a5b4bb0abb678a7"
+    },
+    {
+      "type": "terms",
+      "language": "ps",
+      "version": "2",
+      "required": true,
+      "url": "ps/terms_ps_v2.html",
+      "sha256": "29cc8bf88174cee33aa27167f23082fea9ffc885f6c81c32730e9f431e09c88a"
+    },
+    {
+      "type": "privacy",
+      "language": "ps",
+      "version": "2",
+      "required": true,
+      "url": "ps/privacy_ps_v2.html",
+      "sha256": "a8212c0d99d19268477861289ed50a7a916f27b485b51557873961e24a891ac0"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ps",
+      "version": "2",
+      "required": true,
+      "url": "ps/disclaimer_ps_v2.html",
+      "sha256": "7be88594b249297fb28445f80707c5a00907855db48df10dba10c6e22ac480c6"
+    },
+    {
+      "type": "help",
+      "language": "ps",
+      "version": "1",
+      "required": false,
+      "url": "ps/help.html",
+      "sha256": "9bec47a1b04e9c29e83613d01d84567f2f9231a852b5689810a887a1ae8ce18e"
+    },
+    {
+      "type": "terms",
+      "language": "az",
+      "version": "2",
+      "required": true,
+      "url": "az/terms_az_v2.html",
+      "sha256": "9b136d08b8a5f219aaad49d583f12413e69269997a48dc50efff527541c27db8"
+    },
+    {
+      "type": "privacy",
+      "language": "az",
+      "version": "2",
+      "required": true,
+      "url": "az/privacy_az_v2.html",
+      "sha256": "1cebac4662e2148ffda530f3d84546f63736e5330ea2f44dcf5df45cbc4c15dd"
+    },
+    {
+      "type": "disclaimer",
+      "language": "az",
+      "version": "2",
+      "required": true,
+      "url": "az/disclaimer_az_v2.html",
+      "sha256": "6265f29d20bfc432d9a607df165e083cd70f066919772d7a2303b461640a613e"
+    },
+    {
+      "type": "help",
+      "language": "az",
+      "version": "1",
+      "required": false,
+      "url": "az/help.html",
+      "sha256": "e2fbee53e7a1547e13966a002b2ee00aa66838e2e2954c8ce29aee33eaeb8b77"
+    },
+    {
+      "type": "terms",
+      "language": "kk",
+      "version": "2",
+      "required": true,
+      "url": "kk/terms_kk_v2.html",
+      "sha256": "9adb0d47c10d0de0e2f559459570507721956b77fafcf3471c7603c9f27d8448"
+    },
+    {
+      "type": "privacy",
+      "language": "kk",
+      "version": "2",
+      "required": true,
+      "url": "kk/privacy_kk_v2.html",
+      "sha256": "ad9bef28c655fc53382ed81e0d86575fce6f68ee9ccb4676285d63ed3c2d846a"
+    },
+    {
+      "type": "disclaimer",
+      "language": "kk",
+      "version": "2",
+      "required": true,
+      "url": "kk/disclaimer_kk_v2.html",
+      "sha256": "23f00faa496b8d1133ff05839732b4b5560e88f66e629e5ca64d90c1672088b9"
+    },
+    {
+      "type": "help",
+      "language": "kk",
+      "version": "1",
+      "required": false,
+      "url": "kk/help.html",
+      "sha256": "5eff47063b965ce7228dfdef84224565c004c504770e2fbd29ce43670241afde"
+    },
+    {
+      "type": "terms",
+      "language": "uz",
+      "version": "2",
+      "required": true,
+      "url": "uz/terms_uz_v2.html",
+      "sha256": "3fc52fc7c9b2b27bab103f9a47e94ce7a9e4a740d4bc5187ed0a0854481e532c"
+    },
+    {
+      "type": "privacy",
+      "language": "uz",
+      "version": "2",
+      "required": true,
+      "url": "uz/privacy_uz_v2.html",
+      "sha256": "e4fe84cf70029c14e32458c5b9af901805732553fd77e284446c498e5d9cbb00"
+    },
+    {
+      "type": "disclaimer",
+      "language": "uz",
+      "version": "2",
+      "required": true,
+      "url": "uz/disclaimer_uz_v2.html",
+      "sha256": "254d82ba68a30be57e7cec33276e7d7329eaf5b122fc55e8457f98c63e7cbd2e"
+    },
+    {
+      "type": "help",
+      "language": "uz",
+      "version": "1",
+      "required": false,
+      "url": "uz/help.html",
+      "sha256": "e0d07b8cf31d3f3027134703b51a38b1e104bc47f2095eb65f4c412914808a5c"
+    },
+    {
+      "type": "terms",
+      "language": "ky",
+      "version": "2",
+      "required": true,
+      "url": "ky/terms_ky_v2.html",
+      "sha256": "8989109bb45b20a5f697ba53dd80608f4abdbcd210165686b1873625e6d789fd"
+    },
+    {
+      "type": "privacy",
+      "language": "ky",
+      "version": "2",
+      "required": true,
+      "url": "ky/privacy_ky_v2.html",
+      "sha256": "fe29a214bfe8b772babc73f92e4cb10aac973fbaf52ac5adbd8ee342575f7e15"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ky",
+      "version": "2",
+      "required": true,
+      "url": "ky/disclaimer_ky_v2.html",
+      "sha256": "7d2bc42a2dbe879b87eb7e42c84e34c9a9f22ddd927c2d484e7183ca0a8f5519"
+    },
+    {
+      "type": "help",
+      "language": "ky",
+      "version": "1",
+      "required": false,
+      "url": "ky/help.html",
+      "sha256": "03339813770d57172463b36685010d71c818272de231c1592268495163cd348c"
+    },
+    {
+      "type": "terms",
+      "language": "tg",
+      "version": "2",
+      "required": true,
+      "url": "tg/terms_tg_v2.html",
+      "sha256": "81df58fd4ce625fc8e1dd2012a9412ee20c1601e0465fc02ae77ae9fa9b0982e"
+    },
+    {
+      "type": "privacy",
+      "language": "tg",
+      "version": "2",
+      "required": true,
+      "url": "tg/privacy_tg_v2.html",
+      "sha256": "c63baf83f7fd5fa20fe41c0612c2c1e809fd0a8e4a2b36335848b442f3e41852"
+    },
+    {
+      "type": "disclaimer",
+      "language": "tg",
+      "version": "2",
+      "required": true,
+      "url": "tg/disclaimer_tg_v2.html",
+      "sha256": "e3d8d714bfe8755701dbc4a4110f1dcd263dde7c09327e284a4f974b5b7db2e8"
+    },
+    {
+      "type": "help",
+      "language": "tg",
+      "version": "1",
+      "required": false,
+      "url": "tg/help.html",
+      "sha256": "9000246a14df2feecf7f9708b7370a0db7b77030e0068ba412c17eb054997dd7"
+    },
+    {
+      "type": "terms",
+      "language": "te",
+      "version": "2",
+      "required": true,
+      "url": "te/terms_te_v2.html",
+      "sha256": "c57bd0c2bd19fab6ec12ceff9bef46e8d51a06dd0ca817599f9c3f878721657a"
+    },
+    {
+      "type": "privacy",
+      "language": "te",
+      "version": "2",
+      "required": true,
+      "url": "te/privacy_te_v2.html",
+      "sha256": "327c6cb98d584da5ad32e007eb7ed3b4dde238eeb01845ae9a79be88480eba5a"
+    },
+    {
+      "type": "disclaimer",
+      "language": "te",
+      "version": "2",
+      "required": true,
+      "url": "te/disclaimer_te_v2.html",
+      "sha256": "f25f354c915191f22c0d634c5539c2a65deab02cf23c00e74cf55b5663de3b8e"
+    },
+    {
+      "type": "help",
+      "language": "te",
+      "version": "1",
+      "required": false,
+      "url": "te/help.html",
+      "sha256": "76aa102edae09b6b0166b860ac6a9e2bf6709d8440177187c6b09696ec7cb86c"
+    },
+    {
+      "type": "terms",
+      "language": "mr",
+      "version": "2",
+      "required": true,
+      "url": "mr/terms_mr_v2.html",
+      "sha256": "bf0a4c4722b8699e5fe00c1cb8c2d3e6f5748caba88f68b8784c64871644abe9"
+    },
+    {
+      "type": "privacy",
+      "language": "mr",
+      "version": "2",
+      "required": true,
+      "url": "mr/privacy_mr_v2.html",
+      "sha256": "77f8b9b4259e5bc246a530a40586414f6b611784ade89ec39bac071cebdb4708"
+    },
+    {
+      "type": "disclaimer",
+      "language": "mr",
+      "version": "2",
+      "required": true,
+      "url": "mr/disclaimer_mr_v2.html",
+      "sha256": "299a833485fc06c42c1d4c8721d1c203c65a208889566ec81624711dd4138a5c"
+    },
+    {
+      "type": "help",
+      "language": "mr",
+      "version": "1",
+      "required": false,
+      "url": "mr/help.html",
+      "sha256": "0a11b8ca9e7823a92d4c0d22ca12026a951338d5e261288f577ee95721970f8e"
+    },
+    {
+      "type": "terms",
+      "language": "gu",
+      "version": "2",
+      "required": true,
+      "url": "gu/terms_gu_v2.html",
+      "sha256": "0154d2cf7690cc1c22f806be3dcaa1de592ba8ae35b372b530e640818a425492"
+    },
+    {
+      "type": "privacy",
+      "language": "gu",
+      "version": "2",
+      "required": true,
+      "url": "gu/privacy_gu_v2.html",
+      "sha256": "79677c87451dd2ed29a596ef75751aa33a32fe370fcf78a812fa5d1f7f3b1709"
+    },
+    {
+      "type": "disclaimer",
+      "language": "gu",
+      "version": "2",
+      "required": true,
+      "url": "gu/disclaimer_gu_v2.html",
+      "sha256": "630f5070e941c625effa51f5d58c819e7e64e5f505c2820da920eb36052e37be"
+    },
+    {
+      "type": "help",
+      "language": "gu",
+      "version": "1",
+      "required": false,
+      "url": "gu/help.html",
+      "sha256": "eb9a6b38d1e0821c068c583eda155ce5789a8761be3b815978d4d4d29cda6e80"
+    },
+    {
+      "type": "terms",
+      "language": "kn",
+      "version": "2",
+      "required": true,
+      "url": "kn/terms_kn_v2.html",
+      "sha256": "24058c33d778472f382c1ea2767c01973ebafe109abbd6130999b3995bbca74f"
+    },
+    {
+      "type": "privacy",
+      "language": "kn",
+      "version": "2",
+      "required": true,
+      "url": "kn/privacy_kn_v2.html",
+      "sha256": "03c08a1cc1b17e82dc393c72f484213a27b3d82dcff03c53e19af1401bbb6735"
+    },
+    {
+      "type": "disclaimer",
+      "language": "kn",
+      "version": "2",
+      "required": true,
+      "url": "kn/disclaimer_kn_v2.html",
+      "sha256": "bb074a028a4cbedefb2683c0c04ba55b24b3ceb5b9ed6d07d341a6be2337d0ab"
+    },
+    {
+      "type": "help",
+      "language": "kn",
+      "version": "1",
+      "required": false,
+      "url": "kn/help.html",
+      "sha256": "a42aa993333cb20333f84886ce0d2b1256c37e873354758f859f4cdf278b9691"
+    },
+    {
+      "type": "terms",
+      "language": "ml",
+      "version": "2",
+      "required": true,
+      "url": "ml/terms_ml_v2.html",
+      "sha256": "3e4cdd0c4582cb40d88fd4cbc8de33e5e1e83054759b8736fd1fd94d49fa804e"
+    },
+    {
+      "type": "privacy",
+      "language": "ml",
+      "version": "2",
+      "required": true,
+      "url": "ml/privacy_ml_v2.html",
+      "sha256": "166896713c5ff9c78f6b72466c4ae3c09665530514c8d434aafeb6612965bfbe"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ml",
+      "version": "2",
+      "required": true,
+      "url": "ml/disclaimer_ml_v2.html",
+      "sha256": "f35bdf09ad2744424559867a8ab4fa84dc366859a543fce43e8d9a013fd20d8f"
+    },
+    {
+      "type": "help",
+      "language": "ml",
+      "version": "1",
+      "required": false,
+      "url": "ml/help.html",
+      "sha256": "b99364d4f385065337a1144bc87703c72acfba5d9b6e9b7839fad98133f01adb"
+    },
+    {
+      "type": "terms",
+      "language": "pa-Guru",
+      "version": "2",
+      "required": true,
+      "url": "pa-Guru/terms_pa-Guru_v2.html",
+      "sha256": "c3c5db57b0033bd4b8639811d0c82b0453870004e2cc6e740d5a20ea321416da"
+    },
+    {
+      "type": "privacy",
+      "language": "pa-Guru",
+      "version": "2",
+      "required": true,
+      "url": "pa-Guru/privacy_pa-Guru_v2.html",
+      "sha256": "dfb938e08a9d87ece996dc4c24d69384c9c644e36d5ac8babc493ac258ecb082"
+    },
+    {
+      "type": "disclaimer",
+      "language": "pa-Guru",
+      "version": "2",
+      "required": true,
+      "url": "pa-Guru/disclaimer_pa-Guru_v2.html",
+      "sha256": "c847591014e17a9ea014bc0f75456e2874aa8e0b4cd134731218ab71b5c1892e"
+    },
+    {
+      "type": "help",
+      "language": "pa-Guru",
+      "version": "1",
+      "required": false,
+      "url": "pa-Guru/help.html",
+      "sha256": "2a7a6c310c0d2de486100188f1589998ad7ba43cfbc82b42318f45b96cb2ac5c"
+    },
+    {
+      "type": "terms",
+      "language": "ne",
+      "version": "2",
+      "required": true,
+      "url": "ne/terms_ne_v2.html",
+      "sha256": "2a026a23c14827358e2549a371f6d2e0bd9046329636b05cc94a9724e4610722"
+    },
+    {
+      "type": "privacy",
+      "language": "ne",
+      "version": "2",
+      "required": true,
+      "url": "ne/privacy_ne_v2.html",
+      "sha256": "1f995a6999814aa763b5637a9f85ee0cdf07636203482879314387b7d0cff79a"
+    },
+    {
+      "type": "disclaimer",
+      "language": "ne",
+      "version": "2",
+      "required": true,
+      "url": "ne/disclaimer_ne_v2.html",
+      "sha256": "3334bf6e6cdd0ce62304f50473555e62cdd1ccc8b06bde81a549de03d796bc02"
+    },
+    {
+      "type": "help",
+      "language": "ne",
+      "version": "1",
+      "required": false,
+      "url": "ne/help.html",
+      "sha256": "4b6cfff91e31ef5a09f1f127b489f5a552b87a30b933112439762aab39d0c1eb"
+    },
+    {
+      "type": "terms",
+      "language": "si",
+      "version": "2",
+      "required": true,
+      "url": "si/terms_si_v2.html",
+      "sha256": "0ae7930e218b6a7b11ab2daa811db390fe3b6faa6d0a56c157e05966a0fce542"
+    },
+    {
+      "type": "privacy",
+      "language": "si",
+      "version": "2",
+      "required": true,
+      "url": "si/privacy_si_v2.html",
+      "sha256": "a7d20a05624a63215813fba58170bb28ba6fb47cb500c5ef7952d41f4d4cd88d"
+    },
+    {
+      "type": "disclaimer",
+      "language": "si",
+      "version": "2",
+      "required": true,
+      "url": "si/disclaimer_si_v2.html",
+      "sha256": "5dd157c3107fc897cba73adf225b9ad382252f05f9edccb98ab64202a1cf42a0"
+    },
+    {
+      "type": "help",
+      "language": "si",
+      "version": "1",
+      "required": false,
+      "url": "si/help.html",
+      "sha256": "f7531d81f5e1f141bb2b5cf7f61b10ac8848a9ec8b45d820a1d3d59e4bd697c9"
+    },
+    {
+      "type": "terms",
+      "language": "as",
+      "version": "2",
+      "required": true,
+      "url": "as/terms_as_v2.html",
+      "sha256": "faf410932fc685e350e06543d03a7b960e2cfa68fcfc91642bf9b101861a0824"
+    },
+    {
+      "type": "privacy",
+      "language": "as",
+      "version": "2",
+      "required": true,
+      "url": "as/privacy_as_v2.html",
+      "sha256": "3055a1ea60aa8d4f39678269abb5832e53b54acf0061d65c2be1353629eb1bb7"
+    },
+    {
+      "type": "disclaimer",
+      "language": "as",
+      "version": "2",
+      "required": true,
+      "url": "as/disclaimer_as_v2.html",
+      "sha256": "a21031e0b2bc0f134d7e3b2265644ba243929dfc9c066c912b1b6dd2df2e72dd"
+    },
+    {
+      "type": "help",
+      "language": "as",
+      "version": "1",
+      "required": false,
+      "url": "as/help.html",
+      "sha256": "77665e1a7281507e956a154698d240dc4095d6e037741d221193c95411620316"
+    },
+    {
+      "type": "terms",
+      "language": "or",
+      "version": "2",
+      "required": true,
+      "url": "or/terms_or_v2.html",
+      "sha256": "4e5808ed7df29136e8900aa54336aa6dabd37af71469d1effaaf06998c58b431"
+    },
+    {
+      "type": "privacy",
+      "language": "or",
+      "version": "2",
+      "required": true,
+      "url": "or/privacy_or_v2.html",
+      "sha256": "50f753c9aa4c9ca8bffb76ebeb718b7e742324a2790908cbe5c50959323936ad"
+    },
+    {
+      "type": "disclaimer",
+      "language": "or",
+      "version": "2",
+      "required": true,
+      "url": "or/disclaimer_or_v2.html",
+      "sha256": "1e5a3dd0ce5ef3741d454c114fa86a5043513d83655cee229e04e9fd807c2fbb"
+    },
+    {
+      "type": "help",
+      "language": "or",
+      "version": "1",
+      "required": false,
+      "url": "or/help.html",
+      "sha256": "be5736385881ba96679c572f4c1627ec5db346356ee3f9ecb4052c3bf7614aca"
+    }
+  ]
+}
