@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="is">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Persónuverndarstefna ShiftAlarm</title>
+<style>
+:root {
+  color-scheme: light dark;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+  background: #f8fafc;
+}
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+h2 {
+  margin-top: 28px;
+  font-size: 20px;
+}
+p, li {
+  font-size: 16px;
+}
+.notice {
+  padding: 14px;
+  border-radius: 14px;
+  background: #e8eef8;
+}
+.small {
+  color: #64748b;
+  font-size: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e5e7eb;
+    background: #0f172a;
+  }
+  main {
+    background: #111827;
+  }
+  .notice {
+    background: #1f2937;
+  }
+  .small {
+    color: #94a3b8;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Persónuverndarstefna ShiftAlarm</h1>
+<p class="small">Útgáfa 2. Dagsetning: 2026-06-29.</p>
+<h2>1. Almenn meginregla um vinnslu gagna</h2>
+<p>ShiftAlarm byggir fyrst og fremst á notkun án nettengingar. Grunngögn notandans eru búin til, unnin og geymd staðbundið í tæki hans. Þróunaraðilinn fær þessi gögn ekki sjálfkrafa nema notandinn sendi þau með stuðningsbeiðni, útflutningi, tölvupósti, skilaboðaþjónustu, skýjageymslu, forritaverslun eða annarri aðferð sem notandinn velur.</p>
+<p>Í þessari útgáfu notar forritið ekki auglýsinganet, eigið reikningskerfi, auðkenningu á netþjóni, Firebase Analytics, Google Analytics, Crashlytics eða AdMob nema það sé sérstaklega tekið fram í uppfærðri útgáfu þessarar stefnu.</p>
+<h2>2. Gögn sem kunna að vera geymd staðbundið</h2>
+<p>Eftir því hvaða eiginleikar eru notaðir kann forritið að geyma eftirfarandi gögn í tækinu:</p>
+<ul>
+<li>stillingar forritsins, tungumál, þema, stillingar græja og kjörstillingar notandans;</li>
+<li>venjulega vekjara, vaktatengda vekjara, tíma, endurtekningar, hljóð, titring, blund, hækkandi hljóðstyrk og tengdar stillingar;</li>
+<li>vaktaplön, vaktasniðmát, frávik í dagatali, frídaga og merkingar notandans;</li>
+<li>staðviðvaranir: hnit, radíus, tegund atviks við komu eða brottför, heimilisfang, heiti staðar, vistaða staði, áætlun og stöðu virkjunar;</li>
+<li>minnispunkta, viðburði, áminningar, gátlista, textareiti og tengdar dagsetningar;</li>
+<li>hljóðminnispunkta, raddupptökur og textaafrit;</li>
+<li>niðurteljara, skeiðklukku, heimsklukkur og feril tiltekinna aðgerða þegar slíkur ferill er hluti eiginleikans;</li>
+<li>stillingar launaútreikninga, bónusa, frádráttarliði, viðurlög, skýrslur og tengda útreikninga;</li>
+<li>greiningarskrár, tæknileg atvik, stöðu heimilda, villur og stöðu eiginleika;</li>
+<li>öryggisafrit ef notandinn býr þau til handvirkt.</li>
+</ul>
+<h2>3. Gögn sem notandinn kann að senda þróunaraðilanum</h2>
+<p>Ef notandinn hefur samband við stuðning á support@insdeco.ru kann þróunaraðilinn að fá netfang notandans, nafn eða undirskrift í tölvupósti, texta skilaboða, viðhengi, skjámyndir, öryggisafritsskrár, greiningarskýrslur, gerð tækis, Android-útgáfu, útgáfu forritsins, tíma atviks og lýsingu á vandamáli.</p>
+<p>Slík gögn eru aðeins send að frumkvæði notandans. Notandinn ætti að yfirfara tölvupóstinn og viðhengin áður en þau eru send.</p>
+<h2>4. Tilgangur vinnslu</h2>
+<p>Gögn eru notuð til að reka eiginleika forritsins, vista stillingar notandans, afhenda vekjara og áminningar, reka staðviðvaranir, birta minnispunkta og græjur, búa til öryggisafrit, greina villur, afgreiða stuðningsbeiðnir, bæta stöðugleika forritsins, uppfylla lagakröfur og verja réttindi þróunaraðilans og notandans.</p>
+<p>Eftir gildandi lögum kann lagagrundvöllur vinnslunnar að vera efndir notendasamnings, aðgerð notandans, samþykki fyrir tilteknum heimildum, lögmætir hagsmunir af stuðningi og öryggi og uppfylling lagaskyldna.</p>
+<h2>5. Heimildir tækisins</h2>
+<p>Forritið kann aðeins að óska eftir heimildum sem nauðsynlegar eru fyrir viðkomandi eiginleika:</p>
+<ul>
+<li>tilkynningar — fyrir vekjara, niðurteljara, áminningar og þjónustutilkynningar;</li>
+<li>nákvæmir vekjarar og vekjaraheimildir — til að virkja vekjara á þeim tíma sem notandinn velur;</li>
+<li>staðsetning meðan forritið er í notkun — til að velja staði, nota kort og setja upp staðviðvaranir;</li>
+<li>staðsetning í bakgrunni — fyrir staðviðvaranir þegar forritið er ekki opið;</li>
+<li>hljóðnemi — fyrir hljóðminnispunkta, raddinnslátt og talgreiningu;</li>
+<li>internet — til að sækja tungumálapakka, lagaskjöl, hjálp, leiðbeiningar, talgreiningarlíkön án nettengingar, kort og neteiginleika;</li>
+<li>skráaaðgangur í gegnum kerfisskrárval — til útflutnings og innflutnings öryggisafrita;</li>
+<li>stillingar rafhlöðu og bakgrunnsvinnslu — til að bæta áreiðanleika vekjara, tilkynninga og staðviðvarana.</li>
+</ul>
+<p>Notandinn getur afturkallað heimildir í Android-stillingum. Eftir afturköllun kunna sumir eiginleikar að verða óaðgengilegir eða virka með takmörkunum.</p>
+<h2>6. Staðsetning og kort</h2>
+<p>Staðsetningargögn eru notuð til að velja punkt á korti, vista staðviðvaranir, greina komu inn á eða brottför úr skilgreindu svæði, birta heimilisfang og búa til vistaða staði. Hnit og stillingar staðviðvarana eru geymd staðbundið í tækinu nema notandinn flytji þau út eða sendi þau.</p>
+<p>Þegar notandinn notar kort eða heimilisfangaleit kann forritið að hafa samband við korta- og landkóðunarhluta, þar á meðal osmdroid/OpenStreetMap, öfuga landkóðun Nominatim, Android Geocoder kerfisins eða aðra þjónustu sem er tiltæk í tækinu. Slík þjónusta kann að fá tæknileg beiðnigögn, IP-tölu, hnit eða önnur gögn sem nauðsynleg eru til að birta kortið eða ákvarða heimilisfang.</p>
+<h2>7. Hljóð, talafritun án nettengingar og á netinu</h2>
+<p>Hljóðminnispunktar og textaafrit eru búin til að frumkvæði notandans og kunna að innihalda persónulegar eða viðkvæmar upplýsingar ef notandinn tekur þær upp. Þau eru geymd staðbundið í tækinu nema notandinn flytji þau út eða sendi þau.</p>
+<p>Talgreining án nettengingar kann að nota talgreiningarlíkön sem hafa verið sótt staðbundið. Þegar slík líkön eru sótt kann fjartengdi netþjónninn að sjá tæknileg tengigögn, svo sem IP-tölu og upplýsingar um beiðnina.</p>
+<p>Talgreining á netinu kann að nota talgreiningarþjónustu Android-kerfisins sem tækið, framleiðandinn, notandinn eða stýrikerfið velur. Þá kunna hljóðgögn og tæknilegar upplýsingar að vera send til og unnin af valinni talgreiningarþjónustu samkvæmt reglum hennar. Þróunaraðili ShiftAlarm-forritsins stjórnar ekki stefnum þessarar kerfisþjónustu.</p>
+<h2>8. Niðurhal af neti og fjartengdar heimildir</h2>
+<p>Forritið kann að nota internetið til að sækja tungumálapakka, yfirlitsskrár, lagaskjöl, hjálparefni, leiðbeiningar og talgreiningarlíkön án nettengingar, þar á meðal frá GitHub eða annarri fjartengdri heimild sem tilgreind er í forritinu. Við slíkar beiðnir kann fjartengdi netþjónninn að fá IP-tölu, dagsetningu og tíma beiðninnar, skráarslóð, tengiupplýsingar og önnur stöðluð tæknigögn.</p>
+<p>Skrár sem forritið sannprófar heilleika á kunna að vera athugaðar með SHA-256 eða annarri gátsummu. Það dregur úr hættu á skemmdum skrám en tryggir ekki að fjartengda heimildin sé aðgengileg.</p>
+<h2>9. Forritaverslanir og greiðslur</h2>
+<p>Forritið er keypt í forritaverslun, svo sem RuStore eða Google Play, ef það er aðgengilegt á viðkomandi vettvangi. Forritaverslunin vinnur sjálfstætt með reikning notandans, greiðslur, endurgreiðslur, kaupsögu, uppsetningu og uppfærslur samkvæmt eigin reglum og persónuverndarstefnu.</p>
+<p>Þróunaraðilinn fær ekki bankakort, greiðsluaðgangsorð eða full greiðsluauðkenni þegar greitt er í gegnum forritaverslunina.</p>
+<h2>10. Öryggisafrit og útflutningur</h2>
+<p>Öryggisafrit eru aðeins búin til að frumkvæði notandans. Öryggisafritsskrá kann að innihalda verulegan hluta staðbundinna gagna forritsins, þar á meðal vekjara, vaktaplön, minnispunkta, staðsetningarpunkta, stillingar, greiningargögn og aðrar upplýsingar.</p>
+<p>Ef notandinn vistar eða deilir öryggisafriti með öðru forriti, skýjageymslu, tölvupósti, skilaboðaþjónustu, skráastjóra eða ytri geymslu fer frekari vernd og vinnsla skrárinnar eftir þeirri geymslu- eða flutningsaðferð sem notandinn velur.</p>
+<h2>11. Greining</h2>
+<p>Greiningarskrár eru ætlaðar til bilanaleitar og prófunar eiginleika. Þær kunna að innihalda tæknilegar upplýsingar um atvik í forritinu, tíma, heimildir, tæki, útgáfu stýrikerfis, útgáfu forrits, stöðu vekjara, stöðu staðviðvarana, minnispunkta, öryggisafrit og villur.</p>
+<p>Greiningargögn eru geymd staðbundið þar til notandinn hreinsar þau eða sendir þau handvirkt til þróunaraðilans.</p>
+<h2>12. Miðlun til þriðju aðila</h2>
+<p>Þróunaraðilinn selur ekki gögn notandans til auglýsenda og flytur ekki staðbundin gögn forritsins sjálfkrafa til þriðju aðila. Gögn kunna að vera flutt ef notandinn notar ytri þjónustu, sendir stuðningsbeiðni, flytur út öryggisafrit, notar kort, landkóðun, talgreiningu á netinu, forritaverslun eða aðra ytri þjónustu.</p>
+<p>Þjónusta þriðju aðila vinnur gögn samkvæmt eigin reglum. Notandanum er ráðlagt að kynna sér stefnur valinnar forritaverslunar, tölvupóstþjónustu, skýjageymslu, kortaþjónustu, talgreiningarþjónustu og annarrar ytri þjónustu.</p>
+<h2>13. Varðveislutími gagna</h2>
+<p>Staðbundin gögn eru geymd í tækinu þar til notandinn eyðir þeim í forritinu, hreinsar gögn forritsins, fjarlægir forritið, endurheimtir gögn úr öðru öryggisafriti eða eyðir öryggisafritsskránni úr valinni geymslustaðsetningu.</p>
+<p>Stuðningsbeiðnir, tölvupóstar, viðhengi og greiningarefni sem notandinn sendir þróunaraðilanum kunna að vera varðveitt án fyrirfram ákveðins lokatíma til að halda stuðningssögu, greina endurtekin vandamál, verja réttindi og uppfylla lagaskyldur. Notandinn getur óskað eftir eyðingu slíkra gagna; beiðnin verður afgreidd nema frekari varðveisla sé nauðsynleg eða heimil samkvæmt gildandi lögum.</p>
+<h2>14. Öryggi</h2>
+<p>Forritið notar staðlaðar aðferðir Android, þar á meðal einangrun forritsgagna í stýrikerfinu, kerfisheimildir og kerfisskrárval. Tilteknar sóttar skrár kunna að vera sannreyndar með gátsummu ef slík sannprófun hefur verið innleidd fyrir viðkomandi skráartegund.</p>
+<p>Notandinn ber ábyrgð á að verja tækið, skjálás, aðgang að tölvupósti, skýjaþjónustu, öryggisafrit og ytri geymslu. Öryggisafrit og útfluttar skrár kunna að vera aðgengilegar öðrum ef notandinn geymir þær á óvörðum stað eða deilir þeim með þriðju aðilum.</p>
+<h2>15. Lönd þar sem vinnsla fer fram</h2>
+<p>Staðbundin gögn eru áfram í tæki notandans í því landi þar sem tækið er notað. Gögn sem flutt eru í gegnum forritaverslanir, GitHub, kortaþjónustu, talgreiningarþjónustu, tölvupóstþjónustu, skýjaþjónustu og aðra ytri þjónustu kunna að vera unnin í löndum þar sem þjónustan starfar eða hýsir innviði.</p>
+<p>Gögn sem send eru til stuðnings þróunaraðilans kunna að vera unnin þar sem þróunaraðilinn og tölvupóst-, hýsingar- eða afritunarþjónusta hans eru staðsett.</p>
+<h2>16. Réttindi notandans</h2>
+<p>Notandinn getur skoðað, breytt og eytt flestum gögnum beint í forritinu. Hann getur einnig hreinsað gögn forritsins í Android, fjarlægt forritið, afturkallað heimildir, flutt út öryggisafrit eða eytt öryggisafritsskrám sem hann hefur búið til.</p>
+<p>Vegna gagna sem send hafa verið þróunaraðilanum getur notandinn haft samband við support@insdeco.ru og óskað eftir aðgangi, leiðréttingu, eyðingu, takmörkun vinnslu eða afturköllun samþykkis þegar slík réttindi gilda samkvæmt lögum. Til að vernda gögn kann þróunaraðilinn að óska eftir upplýsingum sem nauðsynlegar eru til að staðfesta að beiðnin varði viðkomandi notanda eða netfang.</p>
+<p>Ef notandinn er í lögsögu sem veitir rétt til að leggja fram kvörtun hjá persónuverndaryfirvaldi getur hann haft samband við slíkt yfirvald samkvæmt gildandi lögum. </p>
+<h2>17. Börn</h2>
+<p>Forritið kann að hafa aldursmerkinguna 0+, en það er ekki ætlað til markvissrar söfnunar persónuupplýsinga barna af hálfu þróunaraðilans. Ef barn notar forritið ætti foreldri eða lögráðamaður að hafa eftirlit með stillingum, heimildum, minnispunktum, hljóðupptökum, staðsetningarpunktum, öryggisafritum og stuðningsbeiðnum þegar lög eða fjölskyldureglur krefjast þess.</p>
+<h2>18. Breytingar á þessari stefnu</h2>
+<p>Þróunaraðilinn kann að uppfæra þessa stefnu. Núgildandi útgáfa kann að fylgja forritinu, vera sótt frá fjartengdri heimild eða opnast úr innbyggðri varaútgáfu. Við verulegar breytingar kann forritið að óska eftir því að notandinn yfirfari eða samþykki uppfærða skjalið ef lög eða virkni forritsins krefjast þess.</p>
+<div class="notice">
+
+
+
+</div>
+<div class="notice"><p><strong>Владелец и разработчик приложения:</strong> ООО «ИНСДЕКО», ИНН 0912006803, КПП 091201001, ОГРН 1210900000783.</p><p><strong>Юридический адрес:</strong> 369281, Карачаево-Черкесская Республика, м.р-н Урупский, г.п. Медногорское, пгт Медногорский, ул. Парковая, д. 1.</p><p><strong>Контакт по вопросам конфиденциальности:</strong> support@insdeco.ru.</p><div><strong>Óopinber upplýsingþýðing á íslensku, eingöngu veitt notandanum til þæginda:</strong> þessi þýðing kemur ekki í stað opinberu upplýsinganna á rússnesku. Rússneski textinn hér að framan er sá eini sem hefur lagalegt gildi; ef ósamræmi kemur upp gildir opinberi rússneski textinn. Eigandi og þróunaraðili forritsins: ООО «ИНСДЕКО» (félagið með takmarkaðri ábyrgð «INSDECO»), rússneskt skattnúmer (ИНН) 0912006803, skráningarástæðukóði skattaðila (КПП) 091201001 og aðalskráningarnúmer ríkisins (ОГРН) 1210900000783.<br/><strong>Skráð heimilisfang (upplýsingþýðing):</strong> Parkovaya-gata 1, þéttbýlisstaðurinn Mednogorsky, þéttbýlissveitarfélagið Mednogorskoye, Urupsky-sveitarumdæmi, Karachay-Cherkess-lýðveldið, 369281, Rússneska sambandsríkið.<br/><strong>Tengiliður vegna persónuverndar:</strong> support@insdeco.ru.</div></div></main>
+</body>
+</html>
