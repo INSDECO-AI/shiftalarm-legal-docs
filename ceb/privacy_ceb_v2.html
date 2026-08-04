@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ceb">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Polisiya sa Pagkapribado sa ShiftAlarm</title>
+<style>
+:root {
+  color-scheme: light dark;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+  background: #f8fafc;
+}
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+h2 {
+  margin-top: 28px;
+  font-size: 20px;
+}
+p, li {
+  font-size: 16px;
+}
+.notice {
+  padding: 14px;
+  border-radius: 14px;
+  background: #e8eef8;
+}
+.small {
+  color: #64748b;
+  font-size: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e5e7eb;
+    background: #0f172a;
+  }
+  main {
+    background: #111827;
+  }
+  .notice {
+    background: #1f2937;
+  }
+  .small {
+    color: #94a3b8;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Polisiya sa Pagkapribado sa ShiftAlarm</h1>
+<p class="small">Bersiyon 2. Petsa: 2026-06-29.</p>
+<h2>1. Kinatibuk-ang prinsipyo sa pagproseso sa datos</h2>
+<p>Ang ShiftAlarm kasagarang nagsunod sa offline-first nga modelo. Ang pangunang datos sa tiggamit gihimo, giproseso, ug gitipig lokal sa device sa tiggamit. Ang developer dili awtomatikong makadawat niini nga datos gawas kon ang tiggamit mismo magpadala niini pinaagi sa hangyo sa suporta, export, email, messenger, cloud storage, app store, o laing paagi nga gipili sa tiggamit.</p>
+<p>Sa kasamtangang bersiyon, ang aplikasyon wala mogamit og advertising networks, kaugalingong account system, server-side authorization, Firebase Analytics, Google Analytics, Crashlytics, o AdMob gawas kon klarong ipahayag kini sa gi-update nga bersiyon niini nga Polisiya.</p>
+<h2>2. Datos nga mahimong tipigan lokal</h2>
+<p>Depende sa mga gamit nga gigamit, mahimong tipigan sa aplikasyon ang mosunod nga datos sa device:</p>
+<ul>
+<li>mga setting sa aplikasyon, pinulongan, tema, mga setting sa widget, ug mga gusto sa tiggamit;</li>
+<li>regular nga mga alarm, mga alarm nga nalambigit sa shift, oras, pag-usab, mga tunog, vibration, snooze, hinay-hinay nga pagtaas sa tingog, ug may kalabutan nga mga setting;</li>
+<li>mga iskedyul sa shift, mga template sa shift, mga override sa kalendaryo, mga adlaw nga walay trabaho, ug mga marka sa tiggamit;</li>
+<li>mga geo-alarm: mga coordinate, radius, klase sa panghitabo sa pagsulod o paggawas, adres, ngalan sa dapit, gitipig nga mga dapit, iskedyul, ug kahimtang sa pag-trigger;</li>
+<li>mga nota, panghitabo, pahinumdom, checklist, text block, ug may kalabutan nga mga petsa;</li>
+<li>audio nga mga nota, voice recording, ug text transcript;</li>
+<li>timer, stopwatch, mga orasan sa kalibotan, ug kasaysayan sa pipila ka aksiyon kon ang maong kasaysayan kabahin sa gamit;</li>
+<li>mga setting sa kalkulasyon sa sweldo, bonus, deduction, penalty, report, ug may kalabutan nga mga kalkulasyon;</li>
+<li>diagnostic logs, teknikal nga mga panghitabo, kahimtang sa permiso, mga sayop, ug kahimtang sa mga gamit;</li>
+<li>mga backup kon manu-manong himoon kini sa tiggamit.</li>
+</ul>
+<h2>3. Datos nga mahimong ipadala sa tiggamit ngadto sa developer</h2>
+<p>Kon mokontak ang tiggamit sa suporta sa support@insdeco.ru, mahimong madawat sa developer ang email address sa tiggamit, ngalan o email signature, teksto sa mensahe, mga attachment, screenshot, backup file, diagnostic report, modelo sa device, bersiyon sa Android, bersiyon sa aplikasyon, oras sa panghitabo, ug paghulagway sa problema.</p>
+<p>Ang maong datos ipadala lamang pinaagi sa aksiyon sa tiggamit. Kinahanglan susihon sa tiggamit ang email ug mga attachment sa dili pa ipadala.</p>
+<h2>4. Mga katuyoan sa pagproseso</h2>
+<p>Ang datos gigamit aron mapalihok ang mga gamit sa aplikasyon, tipigan ang mga setting sa tiggamit, ihatud ang mga alarm ug pahinumdom, paandaron ang mga geo-alarm, ipakita ang mga nota ug widget, maghimo og backup, mosusi sa mga sayop, moproseso sa mga hangyo sa suporta, mopauswag sa kalig-on sa aplikasyon, motuman sa legal nga mga kinahanglanon, ug manalipod sa mga katungod sa developer ug tiggamit.</p>
+<p>Depende sa magamit nga balaod, ang legal nga basihan sa pagproseso mahimong maglakip sa pagtuman sa kasabutan sa tiggamit, aksiyon sa tiggamit, pagtugot alang sa piho nga mga permiso, lehitimong interes sa suporta ug seguridad, ug pagtuman sa legal nga mga obligasyon.</p>
+<h2>5. Mga permiso sa device</h2>
+<p>Ang aplikasyon mahimong mangayo lamang sa mga permiso nga gikinahanglan alang sa may kalabutan nga mga gamit:</p>
+<ul>
+<li>mga pahibalo — alang sa mga alarm, timer, pahinumdom, ug service notifications;</li>
+<li>eksaktong mga alarm ug mga permiso sa alarm — aron mag-trigger sa oras nga gipili sa tiggamit;</li>
+<li>lokasyon samtang gigamit ang aplikasyon — alang sa pagpili og mga dapit, mga mapa, ug pag-set up sa mga geo-alarm;</li>
+<li>lokasyon sa background — alang sa mga geo-alarm kon wala maablihi ang aplikasyon;</li>
+<li>mikropono — alang sa audio nga mga nota, voice input, ug speech recognition;</li>
+<li>internet — alang sa pag-download sa mga language pack, legal nga dokumento, tabang, mga instruksyon, offline nga mga modelo sa transcription, mga mapa, ug network features;</li>
+<li>akses sa file pinaagi sa system file picker — alang sa pag-export ug pag-import sa backup;</li>
+<li>mga setting sa baterya ug pagtrabaho sa background — aron mapaayo ang kasaligan sa mga alarm, pahibalo, ug geo-alarm.</li>
+</ul>
+<p>Mahimong bawion sa tiggamit ang mga permiso sa mga setting sa Android. Human sa pagbawi, ang ubang gamit mahimong dili na magamit o molihok nga adunay mga limitasyon.</p>
+<h2>6. Lokasyon ug mga mapa</h2>
+<p>Ang datos sa lokasyon gigamit sa pagpili og punto sa mapa, pagtipig sa mga geo-alarm, pag-ila sa pagsulod o paggawas sa gitakdang lugar, pagpakita og adres, ug paghimo og gitipig nga mga dapit. Ang mga coordinate ug setting sa geo-alarm gitipig lokal sa device gawas kon i-export o ipadala kini sa tiggamit.</p>
+<p>Kon mogamit ang tiggamit og mga mapa o pagpangita sa adres, ang aplikasyon mahimong mokontak sa mapping ug geocoding components, lakip ang osmdroid/OpenStreetMap, Nominatim reverse geocoding, system Android Geocoder, o laing serbisyo nga anaa sa device. Ang maong mga serbisyo mahimong makadawat og teknikal nga datos sa hangyo, IP address, mga coordinate, o ubang datos nga gikinahanglan sa pagpakita sa mapa o pagtino sa adres.</p>
+<h2>7. Audio, offline ug online nga transcription</h2>
+<p>Ang audio nga mga nota ug transcript gihimo pinaagi sa aksiyon sa tiggamit ug mahimong adunay personal o sensitibong impormasyon kon irekord kini sa tiggamit. Gitipig kini lokal sa device gawas kon i-export o ipadala sa tiggamit.</p>
+<p>Ang offline transcription mahimong mogamit og lokal nga gi-download nga mga modelo sa speech recognition. Kon i-download ang maong mga modelo, mahimong makita sa remote server ang teknikal nga datos sa koneksiyon sama sa IP address ug impormasyon sa hangyo.</p>
+<p>Ang online speech recognition mahimong mogamit sa system Android speech recognition service nga gipili sa device, manufacturer, tiggamit, o operating system. Sa maong kahimtang, ang audio data ug teknikal nga impormasyon mahimong ipadala ug iproseso sa gipiling speech recognition service ubos sa kaugalingon niini nga mga lagda. Ang developer sa ShiftAlarm walay kontrol sa mga polisiya sa maong system service.</p>
+<h2>8. Mga network download ug hilit nga mga tinubdan</h2>
+<p>Mahimong mogamit ang aplikasyon sa internet aron i-download ang mga language pack, manifest file, legal nga dokumento, materyal sa tabang, mga instruksyon, ug offline nga mga modelo sa transcription, lakip gikan sa GitHub o laing hilit nga tinubdan nga gitakda sa aplikasyon. Atol sa maong mga hangyo, mahimong makadawat ang remote server sa IP address, petsa ug oras sa hangyo, file path, impormasyon sa koneksiyon, ug ubang standard nga teknikal nga datos.</p>
+<p>Ang mga file nga adunay integrity verification sa aplikasyon mahimong susihon pinaagi sa SHA-256 o laing checksum. Makapamenos kini sa risgo sa pagkadaot sa file apan dili mogarantiya sa pagkaanaa sa hilit nga tinubdan.</p>
+<h2>9. Mga app store ug pagbayad</h2>
+<p>Ang aplikasyon paliton pinaagi sa usa ka app store, sama sa RuStore o Google Play, kon anaa ang aplikasyon sa may kalabutan nga plataporma. Ang app store maoy independente nga moproseso sa account sa tiggamit, mga pagbayad, refund, kasaysayan sa pagpalit, pag-install, ug mga update ubos sa kaugalingon niini nga mga lagda ug polisiya sa pagkapribado.</p>
+<p>Ang developer dili makadawat sa mga bank card, password sa pagbayad, o kompletong kredensiyal sa pagbayad kon ang pagbayad gihimo pinaagi sa app store.</p>
+<h2>10. Mga backup ug export</h2>
+<p>Ang mga backup gihimo lamang pinaagi sa aksiyon sa tiggamit. Ang backup file mahimong adunay dakong bahin sa lokal nga datos sa aplikasyon, lakip ang mga alarm, iskedyul, nota, geo-point, setting, diagnostics, ug ubang impormasyon.</p>
+<p>Kon tipigan o ipaambit sa tiggamit ang backup pinaagi sa laing aplikasyon, cloud storage, email, messenger, file manager, o external storage, ang sunod nga pagpanalipod ug pagproseso sa maong file magdepende sa paagi sa pagtipig o pagbalhin nga gipili sa tiggamit.</p>
+<h2>11. Diagnostics</h2>
+<p>Ang diagnostic logs gituyo alang sa pag-ila sa problema ug pagsusi sa mga gamit. Mahimong adunay kini teknikal nga impormasyon bahin sa mga panghitabo sa aplikasyon, oras, mga permiso, device, bersiyon sa OS, bersiyon sa aplikasyon, kahimtang sa alarm, kahimtang sa geo-alarm, mga nota, backup, ug mga sayop.</p>
+<p>Ang diagnostics gitipig lokal hangtod limpyohan kini sa tiggamit o manu-manong ipadala ngadto sa developer.</p>
+<h2>12. Pagpaambit ngadto sa ikatulong partido</h2>
+<p>Ang developer dili mobaligya sa datos sa tiggamit ngadto sa mga advertiser ug dili awtomatikong magbalhin sa lokal nga datos sa aplikasyon ngadto sa ikatulong partido. Mahimong mabalhin ang datos kon mogamit ang tiggamit og external services, magpadala og hangyo sa suporta, mag-export og backup, mogamit og mga mapa, geocoding, online speech recognition, app store, o laing external service.</p>
+<p>Ang mga serbisyo sa ikatulong partido moproseso sa datos ubos sa kaugalingon nilang mga lagda. Gidasig ang tiggamit sa pagsusi sa mga polisiya sa gipiling app store, email service, cloud storage, mapping service, speech recognition service, ug ubang external services.</p>
+<h2>13. Pagtipig sa datos</h2>
+<p>Ang lokal nga datos gitipig sa device hangtod papason kini sa tiggamit sulod sa aplikasyon, i-clear ang datos sa aplikasyon, i-uninstall ang aplikasyon, ipahiuli ang datos gikan sa laing backup, o papason ang backup file gikan sa gipiling lokasyon sa pagtipig.</p>
+<p>Ang mga hangyo sa suporta, email, attachment, ug diagnostic materials nga gipadala sa tiggamit ngadto sa developer mahimong tipigan nga walay daan nga gitakdang expiry period aron mapreserbar ang kasaysayan sa suporta, maanalisa ang nagbalik-balik nga mga problema, mapanalipdan ang mga katungod, ug matuman ang legal nga mga obligasyon. Mahimong mohangyo ang tiggamit sa pagtangtang sa maong datos; tumanon ang hangyo gawas kon ang dugang nga pagtipig gikinahanglan o gitugot sa magamit nga balaod.</p>
+<h2>14. Seguridad</h2>
+<p>Ang aplikasyon naggamit og standard nga mga mekanismo sa Android, lakip ang pagbulag sa datos sa aplikasyon pinaagi sa operating system, system permissions, ug system file picker. Ang pipila ka gi-download nga mga file mahimong susihon pinaagi sa checksum kon gipatuman ang maong pagsusi alang sa klase sa file.</p>
+<p>Ang tiggamit maoy responsable sa pagpanalipod sa device, screen lock, akses sa email, cloud services, backups, ug external storage. Ang mga backup ug gi-export nga mga file mahimong maakses sa ubang tawo kon tipigan kini sa tiggamit sa walay proteksiyon nga lokasyon o ipaambit sa ikatulong partido.</p>
+<h2>15. Mga nasod diin giproseso ang datos</h2>
+<p>Ang lokal nga datos magpabilin sa device sa tiggamit sa nasod diin gigamit ang device. Ang datos nga gibalhin pinaagi sa mga app store, GitHub, mapping services, speech recognition services, email services, cloud services, ug ubang external services mahimong iproseso sa mga nasod diin naglihok o nag-host og imprastruktura ang maong mga serbisyo.</p>
+<p>Ang datos nga ipadala ngadto sa suporta sa developer mahimong iproseso sa dapit diin nahimutang ang developer ug ang email, hosting, o backup services sa developer.</p>
+<h2>16. Mga katungod sa tiggamit</h2>
+<p>Mahimong tan-awon, usbon, ug papason sa tiggamit ang kadaghanan sa datos direkta sulod sa aplikasyon. Mahimo usab niyang i-clear ang datos sa aplikasyon pinaagi sa Android, i-uninstall ang aplikasyon, bawion ang mga permiso, i-export ang backup, o papason ang mga backup file nga iyang gihimo.</p>
+<p>Alang sa datos nga gipadala ngadto sa developer, mahimong mokontak ang tiggamit sa support@insdeco.ru ug mohangyo og akses, pagtul-id, pagtangtang, paglimit sa pagproseso, o pagbawi sa pagtugot diin magamit ang maong mga katungod ubos sa balaod. Aron mapanalipdan ang datos, mahimong mangayo ang developer og impormasyon nga gikinahanglan sa pagpamatood nga ang hangyo may kalabutan sa hustong tiggamit o email address.</p>
+<p>Kon ang tiggamit nahimutang sa hurisdiksiyon nga naghatag og katungod sa pagreklamo ngadto sa awtoridad sa pagpanalipod sa datos, mahimo siyang mokontak sa maong awtoridad sumala sa magamit nga balaod.</p>
+<h2>17. Mga bata</h2>
+<p>Ang aplikasyon mahimong adunay age rating nga 0+, apan wala kini gituyo alang sa tinuyo nga pagkolekta sa developer sa personal nga datos sa mga bata. Kon ang usa ka bata mogamit sa aplikasyon, kinahanglan bantayan sa ginikanan o legal nga guardian ang mga setting, permiso, nota, audio recording, geo-point, backup, ug mga hangyo sa suporta kon gikinahanglan sa balaod o mga lagda sa pamilya.</p>
+<h2>18. Mga kausaban niini nga Polisiya</h2>
+<p>Mahimong i-update sa developer kini nga Polisiya. Ang kasamtangang bersiyon mahimong ihatud uban sa aplikasyon, i-download gikan sa hilit nga tinubdan, o ablihan gikan sa built-in fallback version. Alang sa mahinungdanong mga kausaban, mahimong hangyoon sa aplikasyon ang tiggamit nga susihon o dawaton ang gi-update nga dokumento kon gikinahanglan sa balaod o lohika sa aplikasyon.</p>
+
+<div class="notice">
+<p><strong>Владелец и разработчик приложения:</strong> ООО «ИНСДЕКО», ИНН 0912006803, КПП 091201001, ОГРН 1210900000783.</p>
+<p><strong>Юридический адрес:</strong> 369281, Карачаево-Черкесская Республика, м.р-н Урупский, г.п. Медногорское, пгт Медногорский, ул. Парковая, д. 1.</p>
+<p><strong>Контакт по вопросам конфиденциальности:</strong> support@insdeco.ru.</p>
+<p><strong>Impormatibong hubad sa Cebuano:</strong></p><p><strong>Tag-iya ug developer sa aplikasyon:</strong> ООО «ИНСДЕКО», ИНН 0912006803, КПП 091201001, ОГРН 1210900000783.</p><p><strong>Legal nga adres:</strong> 369281, Republika sa Karachay-Cherkess, distrito munisipal sa Urupsky, lungsodnong pamuy-anan sa Mednogorskoye, urban-type settlement sa Mednogorsky, Parkovaya St., balay 1.</p><p><strong>Kontak alang sa pagkapribado:</strong> support@insdeco.ru.</p></div></main>
+</body>
+</html>
